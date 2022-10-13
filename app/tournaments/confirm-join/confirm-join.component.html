@@ -1,0 +1,20 @@
+
+<div class="mb-3">
+    league name<b>{{ currentTourn.tourn_name }}</b>
+    <div>
+        This is a {{ currentTourn.tourn_type }} tournament
+    </div>
+    <div>
+        It starts on {{ currentTourn.start_date }} and ends on {{ currentTourn.start_date }}
+    </div>
+    <div>
+        There are currently {{ currentTourn.number_of_teams }} players in tournament making the estmated winnings {{ winnings }}
+    </div>
+
+    <b>${{ currentTourn.entry_fee }}</b> will be deducted from your current balance
+    Your final balance will become 
+    <div>
+        <button class="btn btn-secondary" (click)="onSubmit()" >Continue</button>
+    </div>
+</div>
+

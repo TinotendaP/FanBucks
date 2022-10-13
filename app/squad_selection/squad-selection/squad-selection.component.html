@@ -1,0 +1,429 @@
+<div>
+    <form [formGroup]="team_form" (ngSubmit)="onSubmit(team_form.value)">
+        <div>
+            <input type="text" placeholder="Your team name" formControlName="name">
+        </div>
+        <div>
+            <button [disabled]="!team_form.valid" type="submit"  routerLink="['team-selection']">Submit</button>
+        </div>
+    </form>
+    <div *ngIf ="final_value>0">
+        <h1>Balance ${{ final_value }}</h1>
+    </div>
+    <div *ngIf ="final_value<0">
+        <h1 class="word">Balance ${{ final_value }}</h1>
+    </div> 
+</div>
+<div class="row">
+    <div class="col-4">
+        <div>
+            <h2> 
+                All Players 
+            </h2>
+        </div>
+        <div>
+            <input type="text" id="search" placeholder="Player Search">
+        </div>
+        <div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <div class="row in-row">
+                        <div class="col-6">
+                            <p href=""  id="player-name">
+                                <b>Player name</b>
+                            </p>
+                        </div>
+                        <div class="col-4">
+                            <p>Total Points</p>
+                        </div>
+                        <div class="col-2">
+                            <p>Cost</p>
+                        </div> 
+                    </div>
+                </li> 
+            </ul>
+        </div>
+        <div class="dropdown1">
+            <select>
+                <option *ngFor="let position of positions" (click)="onClick(position)">
+                    {{ position.name }}
+                </option>
+            </select>
+        </div>
+        <div>
+            <section class="box">
+                <div *ngIf="end_result.length>0">
+                    <div *ngIf="end_result.length<590">
+                        <ul class="list-group list-group-flush"  *ngFor="let player of end_result">
+                            <li class="list-group-item">
+                                <div class="row word">
+                                    <div class="col-8">
+                                        <button href="" class="list-group-item list-group-item-action" id="player-name"  (click)="addingPlayer(player)">
+                                            {{ player.first_name }}  {{ player.second_name }} 
+                                        </button>
+                                    </div>
+                                    <div class="col-2">
+                                        <p class="list-group-item list-group-item-action">{{ player.total_points }}</p>
+                                    </div>
+                                    <div class="col-2">
+                                        <p class="list-group-item list-group-item-action">{{ player.now_cost }}</p> 
+                                    </div> 
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div *ngIf="end_result.length>590">
+                        <div *ngIf="pos=='goalkeepers'">
+                            <ul class="list-group list-group-flush"  *ngFor="let player of end_result">
+                                <li *ngIf="player.element_type==1" class="list-group-item">
+                                    <div class="row word">
+                                        <div class="col-8">
+                                            <button href="" class="list-group-item list-group-item-action" id="player-name"  (click)="addingPlayer(player)">
+                                                {{ player.first_name }}  {{ player.second_name }} 
+                                            </button>
+                                        </div>
+                                        <div class="col-2">
+                                            <p class="list-group-item list-group-item-action">{{ player.total_points }}</p>
+                                        </div>
+                                        <div class="col-2">
+                                            <p class="list-group-item list-group-item-action">{{ player.now_cost }}</p>
+                                        </div> 
+                                    </div>
+                                </li>
+                            </ul>
+                          </div>
+                          <div *ngIf="pos=='defenders'">
+                            <ul class="list-group list-group-flush"  *ngFor="let player of end_result">
+                                <li *ngIf="player.element_type==2" class="list-group-item">
+                                    <div class="row word">
+                                        <div class="col-8">
+                                            <button href="" class="list-group-item list-group-item-action" id="player-name"  (click)="addingPlayer(player)">
+                                                {{ player.first_name }}  {{ player.second_name }} 
+                                            </button>
+                                        </div>
+                                        <div class="col-2">
+                                            <p class="list-group-item list-group-item-action">{{ player.total_points }}</p>
+                                        </div>
+                                        <div class="col-2">
+                                            <p class="list-group-item list-group-item-action">{{ player.now_cost }}</p>
+                                        </div> 
+                                    </div>
+                                </li>
+                            </ul>
+                          </div>
+                          <div *ngIf="pos=='midfielders'">
+                            <ul class="list-group list-group-flush"  *ngFor="let player of end_result">
+                                <li *ngIf="player.element_type==3" class="list-group-item">
+                                    <div class="row word">
+                                        <div class="col-8">
+                                            <button href="" class="list-group-item list-group-item-action" id="player-name"  (click)="addingPlayer(player)">
+                                                {{ player.first_name }}  {{ player.second_name }} 
+                                            </button>
+                                        </div>
+                                        <div class="col-2">
+                                            <p class="list-group-item list-group-item-action">{{ player.total_points }}</p>
+                                        </div>
+                                        <div class="col-2">
+                                            <p class="list-group-item list-group-item-action">{{ player.now_cost }}</p>
+                                        </div> 
+                                    </div>
+                                </li>
+                            </ul>
+                          </div>
+                          <div *ngIf="pos=='forwards'">
+                            <ul class="list-group list-group-flush"  *ngFor="let player of end_result">
+                                <li *ngIf="player.element_type==4" class="list-group-item">
+                                    <div class="row word">
+                                        <div class="col-8">
+                                            <button href="" class="list-group-item list-group-item-action" id="player-name"  (click)="addingPlayer(player)">
+                                                {{ player.first_name }}  {{ player.second_name }} 
+                                            </button>
+                                        </div>
+                                        <div class="col-2">
+                                            <p class="list-group-item list-group-item-action">{{ player.total_points }}</p>
+                                        </div>
+                                        <div class="col-2">
+                                            <p class="list-group-item list-group-item-action">{{ player.now_cost }}</p>
+                                        </div> 
+                                    </div>
+                                </li>
+                            </ul>
+                          </div>
+                          <div *ngIf="pos==''">
+                            <ul class="list-group list-group-flush"  *ngFor="let player of end_result">
+                                <li class="list-group-item">
+                                    <div class="row word">
+                                        <div class="col-8">
+                                            <button href="" class="list-group-item list-group-item-action" id="player-name"  (click)="addingPlayer(player)">
+                                                {{ player.first_name }}  {{ player.second_name }} 
+                                            </button>
+                                        </div>
+                                        <div class="col-2">
+                                            <p class="list-group-item list-group-item-action">{{ player.total_points }}</p>
+                                        </div>
+                                        <div class="col-2">
+                                            <p class="list-group-item list-group-item-action">{{ player.now_cost }}</p>
+                                        </div> 
+                                    </div>
+                                </li>
+                            </ul>
+                          </div>
+                          <div *ngIf="pos=='all players'">
+                            <ul class="list-group list-group-flush"  *ngFor="let player of end_result">
+                                <li class="list-group-item">
+                                    <div class="row word">
+                                        <div class="col-8">
+                                            <button href="" class="list-group-item list-group-item-action" id="player-name"  (click)="addingPlayer(player)">
+                                                {{ player.first_name }}  {{ player.second_name }} 
+                                            </button>
+                                        </div>
+                                        <div class="col-2">
+                                            <p class="list-group-item list-group-item-action">{{ player.total_points }}</p>
+                                        </div>
+                                        <div class="col-2">
+                                            <p class="list-group-item list-group-item-action">{{ player.now_cost }}</p>
+                                        </div> 
+                                    </div>
+                                </li>
+                            </ul>
+                          </div>
+                    </div>
+                </div> 
+                <div *ngIf="end_result.length<1">
+                    <div *ngIf="pos=='goalkeepers'">
+                        <ul class="list-group list-group-flush"  *ngFor="let player of players">
+                            <li *ngIf="player.element_type==1" class="list-group-item">
+                                <div class="row word">
+                                    <div class="col-8">
+                                        <button href="" class="list-group-item list-group-item-action" id="player-name"  (click)="addingPlayer(player)">
+                                            {{ player.first_name }}  {{ player.second_name }} 
+                                        </button>
+                                    </div>
+                                    <div class="col-2">
+                                        <p class="list-group-item list-group-item-action">{{ player.total_points }}</p>
+                                    </div>
+                                    <div class="col-2">
+                                        <p class="list-group-item list-group-item-action">{{ player.now_cost }}</p>
+                                    </div> 
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div *ngIf="pos=='defenders'">
+                        <ul class="list-group list-group-flush"  *ngFor="let player of players">
+                            <li *ngIf="player.element_type==2" class="list-group-item">
+                                <div class="row word">
+                                    <div class="col-8">
+                                        <button href="" class="list-group-item list-group-item-action" id="player-name"  (click)="addingPlayer(player)">
+                                            {{ player.first_name }}  {{ player.second_name }} 
+                                        </button>
+                                    </div>
+                                    <div class="col-2">
+                                        <p class="list-group-item list-group-item-action">{{ player.total_points }}</p>
+                                    </div>
+                                    <div class="col-2">
+                                        <p class="list-group-item list-group-item-action">{{ player.now_cost }}</p>
+                                    </div> 
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div *ngIf="pos=='midfielders'">
+                        <ul class="list-group list-group-flush"  *ngFor="let player of players">
+                            <li *ngIf="player.element_type==3" class="list-group-item">
+                                <div class="row word">
+                                    <div class="col-8">
+                                        <button href="" class="list-group-item list-group-item-action" id="player-name"  (click)="addingPlayer(player)">
+                                            {{ player.first_name }}  {{ player.second_name }} 
+                                        </button>
+                                    </div>
+                                    <div class="col-2">
+                                        <p class="list-group-item list-group-item-action">{{ player.total_points }}</p>
+                                    </div>
+                                    <div class="col-2">
+                                        <p class="list-group-item list-group-item-action">{{ player.now_cost }}</p>
+                                    </div> 
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div *ngIf="pos=='forwards'">
+                        <ul class="list-group list-group-flush"  *ngFor="let player of players">
+                            <li *ngIf="player.element_type==4" class="list-group-item">
+                                <div class="row word">
+                                    <div class="col-8">
+                                        <button href="" class="list-group-item list-group-item-action" id="player-name"  (click)="addingPlayer(player)">
+                                            {{ player.first_name }}  {{ player.second_name }} 
+                                        </button>
+                                    </div>
+                                    <div class="col-2">
+                                        <p class="list-group-item list-group-item-action">{{ player.total_points }}</p>
+                                    </div>
+                                    <div class="col-2">
+                                        <p class="list-group-item list-group-item-action">{{ player.now_cost }}</p>
+                                    </div> 
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div *ngIf="pos==''">
+                        <ul class="list-group list-group-flush"  *ngFor="let player of players">
+                            <li class="list-group-item">
+                                <div class="row word">
+                                    <div class="col-8">
+                                        <button href="" class="list-group-item list-group-item-action" id="player-name"  (click)="addingPlayer(player)">
+                                            {{ player.first_name }}  {{ player.second_name }} 
+                                        </button>
+                                    </div>
+                                    <div class="col-2">
+                                        <p class="list-group-item list-group-item-action">{{ player.total_points }}</p>
+                                    </div>
+                                    <div class="col-2">
+                                        <p class="list-group-item list-group-item-action">{{ player.now_cost }}</p>
+                                    </div> 
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div *ngIf="pos=='all players'">
+                        <ul class="list-group list-group-flush"  *ngFor="let player of players">
+                            <li class="list-group-item">
+                                <div class="row word">
+                                    <div class="col-8">
+                                        <button href="" class="list-group-item list-group-item-action" id="player-name"  (click)="addingPlayer(player)">
+                                            {{ player.first_name }}  {{ player.second_name }} 
+                                        </button>
+                                    </div>
+                                    <div class="col-2">
+                                        <p class="list-group-item list-group-item-action">{{ player.total_points }}</p>
+                                    </div>
+                                    <div class="col-2">
+                                        <p class="list-group-item list-group-item-action">{{ player.now_cost }}</p>
+                                    </div> 
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="col-8" id="pitch">
+        GROUND 
+
+        <div class="row h-25">
+            <div class="col"></div>
+            <div class="col"><p>dfgh</p></div>
+            <div class="col" *ngFor="let player of goalkeepers"> 
+                <img *ngIf="player.team==1" src="../../../assets/ICO_file/ars.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==2" src="../../../assets/ICO_file/avl.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==3" src="../../../assets/ICO_file/bou.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==4" src="../../../assets/ICO_file/bre.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==5" src="../../../assets/ICO_file/bha.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==6" src="../../../assets/ICO_file/cfc.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==7" src="../../../assets/ICO_file/cry.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==8" src="../../../assets/ICO_file/eve.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==9" src="../../../assets/ICO_file/ful.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==10" src="../../../assets/ICO_file/lei.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==11" src="../../../assets/ICO_file/lee.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==12" src="../../../assets/ICO_file/liv.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==13" src="../../../assets/ICO_file/mci.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==14" src="../../../assets/ICO_file/mun.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==15" src="../../../assets/ICO_file/new.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==16" src="../../../assets/ICO_file/not.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==17" src="../../../assets/ICO_file/sou.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==18" src="../../../assets/ICO_file/tot.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==19" src="../../../assets/ICO_file/whu.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==20" src="../../../assets/ICO_file/wol.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/> 
+                <p class="custom-control">{{ player.first_name }}  {{ player.second_name }}  {{ player.total_points }}  {{ player.now_cost }}</p>
+            </div>
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+        <div class="row h-25">
+            <div class="col"><p>dfgh</p></div>
+            <div class="col" *ngFor="let player of defenders">
+                <img *ngIf="player.team==1" src="../../../assets/ICO_file/ars.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==2" src="../../../assets/ICO_file/avl.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==3" src="../../../assets/ICO_file/bou.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==4" src="../../../assets/ICO_file/bre.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==5" src="../../../assets/ICO_file/bha.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==6" src="../../../assets/ICO_file/cfc.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==7" src="../../../assets/ICO_file/cry.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==8" src="../../../assets/ICO_file/eve.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==9" src="../../../assets/ICO_file/ful.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==10" src="../../../assets/ICO_file/lei.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==11" src="../../../assets/ICO_file/lee.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==12" src="../../../assets/ICO_file/liv.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==13" src="../../../assets/ICO_file/mci.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==14" src="../../../assets/ICO_file/mun.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==15" src="../../../assets/ICO_file/new.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==16" src="../../../assets/ICO_file/not.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==17" src="../../../assets/ICO_file/sou.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==18" src="../../../assets/ICO_file/tot.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==19" src="../../../assets/ICO_file/whu.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==20" src="../../../assets/ICO_file/wol.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <p class="custom-control">{{ player.first_name }}  {{ player.second_name }}  {{ player.total_points }}  {{ player.now_cost }}</p>
+            </div>
+            <div class="col"></div>
+        </div>
+        <div class="row h-25">
+            <div class="col"><p>dfgh</p></div>
+            <div class="col" *ngFor="let player of midfielders">
+                <img *ngIf="player.team==1" src="../../../assets/ICO_file/ars.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==2" src="../../../assets/ICO_file/avl.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==3" src="../../../assets/ICO_file/bou.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==4" src="../../../assets/ICO_file/bre.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==5" src="../../../assets/ICO_file/bha.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==6" src="../../../assets/ICO_file/cfc.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==7" src="../../../assets/ICO_file/cry.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==8" src="../../../assets/ICO_file/eve.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==9" src="../../../assets/ICO_file/ful.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==10" src="../../../assets/ICO_file/lei.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==11" src="../../../assets/ICO_file/lee.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==12" src="../../../assets/ICO_file/liv.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==13" src="../../../assets/ICO_file/mci.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==14" src="../../../assets/ICO_file/mun.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==15" src="../../../assets/ICO_file/new.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==16" src="../../../assets/ICO_file/not.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==17" src="../../../assets/ICO_file/sou.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==18" src="../../../assets/ICO_file/tot.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==19" src="../../../assets/ICO_file/whu.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==20" src="../../../assets/ICO_file/wol.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <p class="custom-control">{{ player.first_name }}  {{ player.second_name }}  {{ player.total_points }}  {{ player.now_cost }}</p>
+            </div>
+            <div class="col"></div>
+        </div>
+        <div class="row h-25">
+            <div class="col"><p>sdfg</p></div>
+            <div class="col"></div>
+            <div class="col" *ngFor="let player of forwards">
+                <img *ngIf="player.team==1" src="../../../assets/ICO_file/ars.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==2" src="../../../assets/ICO_file/avl.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==3" src="../../../assets/ICO_file/bou.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==4" src="../../../assets/ICO_file/bre.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==5" src="../../../assets/ICO_file/bha.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==6" src="../../../assets/ICO_file/cfc.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==7" src="../../../assets/ICO_file/cry.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==8" src="../../../assets/ICO_file/eve.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==9" src="../../../assets/ICO_file/ful.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==10" src="../../../assets/ICO_file/lei.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==11" src="../../../assets/ICO_file/lee.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==12" src="../../../assets/ICO_file/liv.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==13" src="../../../assets/ICO_file/mci.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==14" src="../../../assets/ICO_file/mun.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==15" src="../../../assets/ICO_file/new.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==16" src="../../../assets/ICO_file/not.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==17" src="../../../assets/ICO_file/sou.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==18" src="../../../assets/ICO_file/tot.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==19" src="../../../assets/ICO_file/whu.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <img *ngIf="player.team==20" src="../../../assets/ICO_file/wol.png" style="width: 55%; height: 45%;" (click)="removingPlayer(player)"/>
+                <p class="custom-control">{{ player.first_name }}  {{ player.second_name }}  {{ player.total_points }}  {{ player.now_cost }}</p>
+            </div>
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+    </div>
+</div>
+
+ 

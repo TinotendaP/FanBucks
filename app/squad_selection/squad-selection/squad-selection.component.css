@@ -1,0 +1,67 @@
+/*.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown1 {
+    position: relative;
+    display: inline-block
+}
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content1 a {
+    color: black;
+    padding:12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content1 a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown1:hover .dropdown-content1 {
+    display: block
+}
+
+.dropdown1:hover .dropbtn {
+    background-color: #3e8e41;
+}*/
+.color {
+    background-color: rgba(65, 132, 147, 0.968);
+}
+
+#pitch {
+    background-image: url("Football_field.svg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+ul.no_bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.box {
+    height: 600px;
+    overflow: scroll;
+}
+.word {
+    text-align: left;
+    color: rgb(214, 13, 40)
+}
+.in-row {
+    background-color: rgba(192, 151, 245, 0.638);    
+}

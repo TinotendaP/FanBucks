@@ -1,0 +1,95 @@
+
+ 
+<div class="row">
+    <div class="container-fluid" id="pitch">
+        <h2>First team</h2>
+        <div  cdkDropList #first_team="cdkDropList" [cdkDropListData]="team"
+        [cdkDropListConnectedTo]="[the_bench]" (cdkDropListDropped)="onDrops($event)">
+            <div>
+                <div class="row">
+                    <p>ghjk</p>
+                    <div class="col" *ngFor="let player of gk" >
+                        <div *ngIf="player.element_type==1"  cdkDrag>
+                            <div>
+                                <div class="player" (click)="subOuts(player)" cdkDrag>
+                                    <div class="row">
+                                        <i class="fas fa-tshirt fa-3x" style="color:rgb(136, 123, 123);"></i>
+                                    </div>
+                                    <div class="row name">
+                                        <p class="custom-control">{{ player.web_name }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="row ex">
+                    <p>ghjk</p>
+                    <div class="col" *ngFor="let player of def" >
+                        <div *ngIf="player.element_type==2">
+                            <div class="player" (click)="subOuts(player)" cdkDrag>
+                                <div class="row">
+                                    <i class="fas fa-tshirt fa-3x" style="color:rgb(78, 26, 110);"></i>
+                                </div>
+                                <div class="row name">
+                                    <p class="custom-control">{{ player.web_name }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row ex">
+                    <p>ghjk</p>
+                    <div class="col" *ngFor="let player of mid">
+                        <div *ngIf="player.element_type==3">
+                            <div class="player" (click)="subOuts(player)" cdkDrag>
+                                <div class="row">
+                                    <i class="fas fa-tshirt fa-3x" style="color:rgb(24, 75, 37);"></i>
+                                </div>
+                                <div class="row name">
+                                    <p class="custom-control">{{ player.web_name }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row ex">
+                    <p>ghjk</p>
+                    <div class="col"></div>
+                    <div class="col" *ngFor="let player of fw" >
+                        <div *ngIf="player.element_type==4" >
+                            <div class="player" (click)="subOuts(player)" cdkDrag>
+                                <div class="row">
+                                    <i class="fas fa-tshirt fa-3x" style="color:red;"></i>
+                                </div>
+                                <div class="row name">
+                                    <p class="custom-control">{{ player.web_name }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h2>Bench</h2>
+        <div class="row h-25" cdkDropList #the_bench="cdkDropList" [cdkDropListData]="team_bench"
+        [cdkDropListConnectedTo]="[first_team]" (cdkDropListDropped)="onDrops($event)">
+            <div class="col bg-dark text-white"  *ngFor="let players of team_bench" >
+                <div>
+                    <div class="example-custom-placeholder" (click)="subIns(players)" cdkDrag>
+                        <i class="fas fa-tshirt fa-3x" style="color:rgb(162, 149, 14);"></i>
+                        <p class="custom-control">{{ players.web_name }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <button (click)="onSubmit()">SUBMIT</button>
+    </div>
+</div>
+
+ 

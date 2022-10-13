@@ -1,0 +1,15 @@
+.player {
+  display: flex;
+  justify-content: center;
+}
+#pitch {
+  background-image: url("Football_field.svg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.extra {
+  height: 500px;
+}
+.ex {
+  height: 160px;
+}

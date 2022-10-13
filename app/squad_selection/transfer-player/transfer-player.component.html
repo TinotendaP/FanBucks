@@ -1,0 +1,234 @@
+<div>
+    <h1>
+        For {{transfer.name}}
+    </h1>
+</div>
+<div *ngIf ="final_value>0">
+    <h1>{{ final_value }}</h1>
+</div>
+<div *ngIf ="final_value<0">
+    <h1 class="word">{{ final_value }}</h1>
+</div>
+<div>
+    <form [formGroup]="team_form" >
+        <div>
+            <button type="submit" (click)="onSubmit()" routerLink="['team-selection']">Submit</button>
+        </div>
+    </form>
+</div>
+<div class="row">
+    <div class="col-4">
+        <div>
+            <h2> 
+                All Players 
+            </h2>
+        </div>
+        <div>
+            <input type="text" id="search" placeholder="Player Search">
+        </div>
+        <div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <div class="row in-row">
+                        <div class="col-6">
+                            <p href=""  id="player-name">
+                                <b>Player name</b>
+                            </p>
+                        </div>
+                        <div class="col-4">
+                            <p>Total Points</p>
+                        </div>
+                        <div class="col-2">
+                            <p>Cost</p>
+                        </div> 
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul class="list-group list-group-flush"  *ngFor="let player of end_result">
+                <li class="list-group-item">
+                    <div class="row word">
+                        <div class="col-8">
+                            <button href="" class="list-group-item list-group-item-action" id="player-name"  (click)="addingPlayer(player)">
+                                {{ player.first_name }}  {{ player.second_name }} 
+                            </button>
+                        </div>
+                        <div class="col-2">
+                            <p class="list-group-item list-group-item-action">{{ player.total_points }}</p>
+                        </div>
+                        <div class="col-2">
+                            <p class="list-group-item list-group-item-action">{{ player.now_cost }}</p>
+                        </div> 
+                    </div>
+                </li>
+            </ul>
+        </div> 
+        <div class="dropdown1">
+            <select>
+                <option *ngFor="let position of positions" (click)="onClick(position)">
+                    {{ position.name }}
+                </option>
+            </select>
+        </div>
+        <div>
+            <section class="box">
+                <div *ngIf="pos=='goalkeepers'">
+                    <ul class="list-group list-group-flush"  *ngFor="let player of players">
+                        <li *ngIf="player.element_type==1" class="list-group-item">
+                            <div class="row word">
+                                <div class="col-8">
+                                    <button href="" class="list-group-item list-group-item-action" id="player-name"  (click)="addingPlayer(player)">
+                                        {{ player.first_name }}  {{ player.second_name }} 
+                                    </button>
+                                </div>
+                                <div class="col-2">
+                                    <p class="list-group-item list-group-item-action">{{ player.total_points }}</p>
+                                </div>
+                                <div class="col-2">
+                                    <p class="list-group-item list-group-item-action">{{ player.now_cost }}</p>
+                                </div> 
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div *ngIf="pos=='defenders'">
+                    <ul class="list-group list-group-flush"  *ngFor="let player of players">
+                        <li *ngIf="player.element_type==2" class="list-group-item">
+                            <div class="row word">
+                                <div class="col-8">
+                                    <button href="" class="list-group-item list-group-item-action" id="player-name"  (click)="addingPlayer(player)">
+                                        {{ player.first_name }}  {{ player.second_name }} 
+                                    </button>
+                                </div>
+                                <div class="col-2">
+                                    <p class="list-group-item list-group-item-action">{{ player.total_points }}</p>
+                                </div>
+                                <div class="col-2">
+                                    <p class="list-group-item list-group-item-action">{{ player.now_cost }}</p>
+                                </div> 
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div *ngIf="pos=='midfielders'">
+                    <ul class="list-group list-group-flush"  *ngFor="let player of players">
+                        <li *ngIf="player.element_type==3" class="list-group-item">
+                            <div class="row word">
+                                <div class="col-8">
+                                    <button href="" class="list-group-item list-group-item-action" id="player-name"  (click)="addingPlayer(player)">
+                                        {{ player.first_name }}  {{ player.second_name }} 
+                                    </button>
+                                </div>
+                                <div class="col-2">
+                                    <p class="list-group-item list-group-item-action">{{ player.total_points }}</p>
+                                </div>
+                                <div class="col-2">
+                                    <p class="list-group-item list-group-item-action">{{ player.now_cost }}</p>
+                                </div> 
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div *ngIf="pos=='forwards'">
+                    <ul class="list-group list-group-flush"  *ngFor="let player of players">
+                        <li *ngIf="player.element_type==4" class="list-group-item">
+                            <div class="row word">
+                                <div class="col-8">
+                                    <button href="" class="list-group-item list-group-item-action" id="player-name"  (click)="addingPlayer(player)">
+                                        {{ player.first_name }}  {{ player.second_name }} 
+                                    </button>
+                                </div>
+                                <div class="col-2">
+                                    <p class="list-group-item list-group-item-action">{{ player.total_points }}</p>
+                                </div>
+                                <div class="col-2">
+                                    <p class="list-group-item list-group-item-action">{{ player.now_cost }}</p>
+                                </div> 
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div *ngIf="pos==''">
+                    <ul class="list-group list-group-flush"  *ngFor="let player of players">
+                        <li class="list-group-item">
+                            <div class="row word">
+                                <div class="col-8">
+                                    <button href="" class="list-group-item list-group-item-action" id="player-name"  (click)="addingPlayer(player)">
+                                        {{ player.first_name }}  {{ player.second_name }} 
+                                    </button>
+                                </div>
+                                <div class="col-2">
+                                    <p class="list-group-item list-group-item-action">{{ player.total_points }}</p>
+                                </div>
+                                <div class="col-2">
+                                    <p class="list-group-item list-group-item-action">{{ player.now_cost }}</p>
+                                </div> 
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div *ngIf="pos=='all players'">
+                    <ul class="list-group list-group-flush"  *ngFor="let player of players">
+                        <li class="list-group-item">
+                            <div class="row word">
+                                <div class="col-8">
+                                    <button href="" class="list-group-item list-group-item-action" id="player-name"  (click)="addingPlayer(player)">
+                                        {{ player.first_name }}  {{ player.second_name }} 
+                                    </button>
+                                </div>
+                                <div class="col-2">
+                                    <p class="list-group-item list-group-item-action">{{ player.total_points }}</p>
+                                </div>
+                                <div class="col-2">
+                                    <p class="list-group-item list-group-item-action">{{ player.now_cost }}</p>
+                                </div> 
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="col-8" id="pitch">
+        GROUND
+        <div class="row h-25">
+            <div class="col"></div>
+            <div class="col"><p>dfgh</p></div>
+            <div class="col" *ngFor="let player of goalkeepers"> 
+                <i class="fas fa-tshirt fa-3x" style="color:red;" (click)="removingPlayer(player)"></i> 
+                <p class="custom-control">{{ player.first_name }}  {{ player.second_name }}  {{ player.total_points }}  {{ player.now_cost }}</p>
+            </div>
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+        <div class="row h-25">
+            <div class="col"><p>dfgh</p></div>
+            <div class="col" *ngFor="let player of defenders">
+                <i class="fas fa-tshirt fa-3x" style="color:red;" (click)="removingPlayer(player)"></i>
+                <p class="custom-control">{{ player.first_name }}  {{ player.second_name }}  {{ player.total_points }}  {{ player.now_cost }}</p>
+            </div>
+            <div class="col"></div>
+        </div>
+        <div class="row h-25">
+            <div class="col"><p>dfgh</p></div>
+            <div class="col" *ngFor="let player of midfielders">
+                <i class="fas fa-tshirt fa-3x" style="color:red;" (click)="removingPlayer(player)"></i>
+                <p class="custom-control">{{ player.first_name }}  {{ player.second_name }}  {{ player.total_points }}  {{ player.now_cost }}</p>
+            </div>
+            <div class="col"></div>
+        </div>
+        <div class="row h-25">
+            <div class="col"><p>sdfg</p></div>
+            <div class="col"></div>
+            <div class="col" *ngFor="let player of forwards">
+                <i class="fas fa-tshirt fa-3x" style="color:red;" (click)="removingPlayer(player)"></i>
+                <p class="custom-control">{{ player.first_name }}  {{ player.second_name }}  {{ player.total_points }}  {{ player.now_cost }}</p>
+            </div>
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+    </div>
+</div>
+ 
+

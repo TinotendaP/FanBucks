@@ -1,0 +1,155 @@
+<div *ngIf="reg==false">    
+    <div class="container" *ngIf="isLoggedIn==false">
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit(loginForm.value)">
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1"><i class="fas fa-envelope"></i></span>
+            <input type="text"
+            class="form-control form-control-lg"
+            id="username"
+            placeholder="Please enter your email"
+            formControlName="username" required>
+          </div>
+        <div *ngIf="loginForm.get('username')?.touched && loginForm.get('username')?.valid">
+            <p class="error">Please enter registered email address</p>
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1"><i class="fas fa-key"></i></span>
+            <input type="password"
+            class="form-control form-control-lg"
+            id="password"
+            matInput
+            formControlName="password">
+          </div>
+        <button class="btn btn-secondary" type="submit">Login</button><button type="button" class="btn btn-secondary" (click)="register()">Sign up</button>
+    </form>
+    </div>
+    <div *ngIf="isLoggedIn==true">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" [routerLink]="['/']"><strong>FanBucks</strong></a>
+
+            <button class="navbar-toggler" type="button" (click)="isMenuCollapsed = !isMenuCollapsed">
+                &#9776;
+            </button> 
+
+            <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" (click)="isMenuCollapsed = true" [routerLink]="['join-tournament']">Join tournament</a></li>
+                    <li class="nav-item"><a class="nav-link" (click)="isMenuCollapsed = true" [routerLink]="['create-tournament']">Create tournament</a></li>
+                </ul>
+            </div>
+            <div>
+                <app-user-info></app-user-info> 
+            </div>
+        </div>
+    </nav>
+    <div>
+        <router-outlet></router-outlet> 
+    </div>
+    </div>
+</div>
+<div *ngIf="reg==true">
+        <h1>Owner details form</h1>
+    <div>
+        <form [formGroup]="myForm"
+        (ngSubmit)="onSubmitreg(myForm.value)" class="has-validation">
+
+            <div class="input-group mb-3">
+                <span class="input-group-text">Firstname</span>
+                <input class="form-control form-control-lg"
+                type="text"
+                id="first_name"
+                name="first_name"
+                placeholder=""
+                formControlName="first_name">
+            </div>
+            <div *ngIf="myForm.get('first_name')?.touched && !myForm.get('first_name')?.valid">
+                <p class="error">Please enter first name</p>
+            </div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text">Lastname</span>
+                <input class="form-control form-control-lg"
+                type="text"
+                id="name"
+                placeholder=""
+                matInput
+                formControlName="last_name">
+            </div>
+            <div *ngIf="myForm.get('last_name')?.touched && !myForm.get('last_name')?.valid">
+                <p class="error">Please enter last name</p>
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                <input class="form-control form-control-lg"
+                type="text"
+                id="email"
+                placeholder="example@mail.com"
+                matInput
+                formControlName="email">
+            </div>
+            <div *ngIf="myForm.get('email')?.touched && !myForm.get('email')?.valid">
+                <p class="error">Email is invalid or it already exists</p>
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text" > 
+                    <i class="fas fa-phone"></i>
+                </span>
+                <input class="form-control form-control-lg"
+                type="tel"
+                id="phone"
+                placeholder="+263***********"
+                matInput
+                formControlName="phone">
+            </div>
+            <div *ngIf="myForm.get('phone')?.touched && !myForm.get('phone')?.valid">
+                <p class="error">Your phone number is invalid</p>
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text" > 
+                    <i class="fas fa-key"></i>
+                </span>
+                <input class="form-control form-control-lg"
+                type="password"
+                id="password"
+                matInput
+                formControlName="password">
+                <div *ngIf="myForm.get('password')?.touched && !myForm.get('password')?.valid">
+                    <p class="error">Your password should have uppercase, lowercase, numbers and more than 8 characters</p>
+                </div>
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text" > 
+                    Confirm<i class="fas fa-key"></i>
+                </span>
+                <input class="form-control form-control-lg"
+                type="password"
+                id="password1"
+                matInput
+                formControlName="password1">
+            </div>
+            <div *ngIf="myForm.get('password1')?.touched && !myForm.get('password1')?.valid">
+                <p class="error">The passwords do not match</p>
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text" > 
+                    terms and conditions
+                </span>
+                <span class="input-group-text">
+                    <input class="form-check-input"
+                    type="checkbox"
+                    id="conditions"
+                    formControlName="terms_and_conditions">
+                </span>
+
+
+            </div>
+            <div *ngIf="myForm.get('terms_and_conditions')?.touched && !myForm.get('terms_and_conditions')?.valid">
+                <p class="error">Please agree to terms and conditions</p>
+            </div>
+            <div class="d-grid gap-2">
+                <button class="btn btn-primary" type="submit" [disabled]="!myForm.valid"> Submit </button>
+            </div>   
+        </form>
+    </div>
+</div>

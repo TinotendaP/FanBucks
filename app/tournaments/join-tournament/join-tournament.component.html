@@ -1,0 +1,19 @@
+<div>
+    <form [formGroup]="join_form"
+    (ngSubmit)="onSubmit(join_form.value)">
+        <div class="input-group mb-3">
+            <span class="input-group-text">Tournament Name</span>
+            <input type="text"
+            id="league_token"
+            placeholder="League Token"
+            formControlName="league_token"
+            class="form-control">
+        </div>
+        <div *ngIf="join_form.get('league_token')?.touched && !join_form.get('league_token')?.valid">
+            <p class="error">Im sorry tournament does not exist</p>
+        </div>
+        <div class="d-grid gap-2">
+            <button class="btn btn-primary" [disabled]="!join_form.valid" type="submit" routerLink="['confirm-join']">Join</button>
+        </div>
+    </form> 
+</div>

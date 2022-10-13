@@ -1,0 +1,79 @@
+<h1>Owner details form</h1>
+
+<div>
+    <form [formGroup]="tourn_form"
+    (ngSubmit)="onSubmit(tourn_form.value)"
+    class="ui form">
+
+        <div class="input-group mb-3">
+            <span class="input-group-text">Tournament Name</span>
+            <input type="text" 
+                    id="tourn_name"
+                    name="tourn_name"
+                    class="form-control"
+                    formControlName="tourn_name">
+        </div>
+        <div *ngIf="tourn_form.get('tourn_name')?.touched && !tourn_form.get('tourn_name')?.valid">
+            <p class="error">Please enter tournament name that does not already exists</p>
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text">Tournament type</span>
+            <select formControlName="tourn_type" id="tourn_type" name="tourn_type" class="form-select">
+                <option value="league" selected>League</option>
+                <option value="knockout_h2h">Knockout <b>Head to head</b></option>
+                <option value="league_h2h">League <b>Head to head</b></option>
+            </select>
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text">Maximum number of teams</span>
+            <input type="number"
+                    id="max_teams" 
+                    placeholder="0"
+                    class="form-control"
+                    formControlName="max_teams">
+        </div>
+        <div *ngIf="tourn_form.get('max_teams')?.touched && !tourn_form.get('max_teams')?.valid">
+            <p class="error">Minimum teams will be set to a default of 3</p>
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text">Entry fee</span>
+            <input type="number"
+                    id="entry_fee"
+                    placeholder="0"
+                    class="form-control"
+                    formControlName="entry_fee">
+        </div>
+        <div *ngIf="tourn_form.get('entry_fee')?.touched && !tourn_form.get('entry_fee')?.valid">
+            <p class="error">Please enter a entry fee</p>
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text">Currency</span>
+            <select formControlName="currency" id="currency" name="currency" class="form-select">
+                <option value="usd">USD</option>
+                <option selected value="rtgs">RTGS</option>
+                <option value="rands">Rands</option>
+            </select>
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text">Start date</span>
+            <input type="date"
+                    id="start_date"
+                    formControlName="start_date">
+        </div>
+        <div *ngIf="tourn_form.get('start_date')?.touched && !tourn_form.get('start_date')?.valid">
+            <p class="error">Please enter start date or default will be today</p>
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text">End date</span>
+            <input type="date"
+                    id="end_date"
+                    formControlName="end_date">
+        </div>
+        <div *ngIf="tourn_form.get('end_date')?.touched && !tourn_form.get('end_date')?.valid">
+            <p class="error">Please specify the end date of your league</p>
+        </div>
+        <div class="d-grid gap-2">
+            <button class="btn btn-primary" type="submit"> Submit </button>
+        </div>
+    </form>
+</div>

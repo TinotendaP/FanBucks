@@ -1,0 +1,18 @@
+
+<ng-template #popTitle>
+    <div>
+        Hello, <b>{{ userInfo.first_name }} {{ userInfo.last_name }}</b>!
+    </div>
+</ng-template>
+<ng-template #popContent>
+    <div>
+        Your current balance is ${{ userInfo.balance }}
+    </div>
+    <div>
+        <button type="button" class="btn btn-secondary float-left">Edit account</button><button type="button" class="btn btn-secondary float-right" (click)="logOut()">Logout</button>
+    </div>
+</ng-template>
+<button type="button" class="btn btn-outline-secondary" [ngbPopover]="popContent" [popoverTitle]="popTitle">
+    <i class="far fa-user-circle fa-2x"></i>
+</button>
+   

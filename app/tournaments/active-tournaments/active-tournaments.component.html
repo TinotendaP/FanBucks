@@ -1,0 +1,22 @@
+
+<div class="col">
+    <div *ngFor="let tournament of new_tournament" class="col">
+        <h1> {{ tournament.tourn_name }}</h1>
+        <ul *ngFor="let tourn of tournament.tourn" class="list-group list-group-flush">
+            <li class="list-group-item" >
+                <div class="row word">
+                    <div class="col-8">
+                        <button href="" class="list-group-item list-group-item-action" id="player-name" (click)="getPoints(tourn.team, tourn.team_bench)">
+                            {{ tourn.team_name }} 
+                        </button>
+                    </div>
+                    <div class="col-2">
+                        <p class="list-group-item list-group-item-action">{{ tourn.points }}</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <button (click)="sendData(tournament.tourn_name)">transfer player</button>
+    </div>
+</div>
+ 

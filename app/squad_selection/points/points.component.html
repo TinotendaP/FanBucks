@@ -1,0 +1,76 @@
+<body>
+    <div class="row">
+            <h2>First team Total Points - {{ points }}</h2>
+    </div>
+    <div class="row mt-25">
+        <div class="container-fluid" id="pitch">
+            <div class="row ex">
+                <p>ghjk</p>
+                <div class="col" *ngFor="let player of gk" >
+                    <div class="player" *ngIf="player.element_type==1" >
+                        <i class="fas fa-tshirt fa-3x" style="color:rgb(136, 123, 123);"></i>
+                        <div class="name">
+                            <p >{{ player.web_name }} {{ player.event_points }} </p>
+                        </div>
+                    </div>
+                </div> 
+            </div> 
+            <div class="row ex">
+                <p>ghjk</p>
+                <div class="col" *ngFor="let player of def" >
+                    <div *ngIf="player.element_type==2">
+                        <div class="player">
+                            <i class="fas fa-tshirt fa-3x" style="color:rgb(78, 26, 110);"></i>
+                            <div class="name">
+                                <p>{{ player.web_name }} {{ player.event_points }} </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row ex">
+                <p>ghjk</p>
+                <div class="col" *ngFor="let player of mid">
+                    <div *ngIf="player.element_type==3">
+                        <div class="player">
+                            <i class="fas fa-tshirt fa-3x" style="color:rgb(24, 75, 37);"></i>
+                            <div>
+                                <p class="name">{{ player.web_name }} {{ player.event_points }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row ex">
+                <p>ghjk</p>
+                <div class="col"></div>
+                <div class="col" *ngFor="let player of fw" >
+                    <div *ngIf="player.element_type==4" >
+                        <div class="player">
+                            <i class="fas fa-tshirt fa-3x" style="color:red;"></i>
+                            <div class="name">
+                                <p>{{ player.web_name }} {{ player.event_points }} </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+        <div class="container">
+            <h2>Bench</h2>
+            <div class="row h-25">
+                <div class="col"  *ngFor="let players of team_bench" >
+                    <div class="example-custom-placeholder">
+                        <i class="fas fa-tshirt fa-3x" style="color:rgb(162, 149, 14);"></i>
+                        <div class="name">
+                            <p>{{ players.web_name }} {{ players.event_points }} </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+ 

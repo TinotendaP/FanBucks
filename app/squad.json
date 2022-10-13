@@ -1,0 +1,5266 @@
+[
+    {
+        "id": "1",
+        "name": "Max Aarons",
+        "team": "0",
+        "pos": "1",
+        "points": "5",
+        "total_points": "28"
+    },
+    {
+        "id": "2",
+        "name": "Che Adams",
+        "team": "1",
+        "pos": "3",
+        "points": "3",
+        "total_points": "14"
+    },
+    {
+        "id": "3",
+        "name": "Tayo Adaramola",
+        "team": "2",
+        "pos": "1",
+        "points": "8",
+        "total_points": "27"
+    },
+    {
+        "id": "4",
+        "name": "AdriEn",
+        "team": "3",
+        "pos": "0",
+        "points": "7",
+        "total_points": "19"
+    },
+    {
+        "id": "5",
+        "name": "Derek Agyakwa",
+        "team": "4",
+        "pos": "1",
+        "points": "1",
+        "total_points": "25"
+    },
+    {
+        "id": "6",
+        "name": "Rayan Aut Nouri",
+        "team": "5",
+        "pos": "1",
+        "points": "4",
+        "total_points": "11"
+    },
+    {
+        "id": "7",
+        "name": "Kristoffer Ajer",
+        "team": "6",
+        "pos": "1",
+        "points": "5",
+        "total_points": "24"
+    },
+    {
+        "id": "8",
+        "name": "Nathan Aka",
+        "team": "7",
+        "pos": "1",
+        "points": "6",
+        "total_points": "15"
+    },
+    {
+        "id": "9",
+        "name": "Marc Albrighton",
+        "team": "8",
+        "pos": "2",
+        "points": "6",
+        "total_points": "21"
+    },
+    {
+        "id": "10",
+        "name": "Alejandro Garnacho",
+        "team": "9",
+        "pos": "3",
+        "points": "4",
+        "total_points": "12"
+    },
+    {
+        "id": "11",
+        "name": "Aji Alese",
+        "team": "10",
+        "pos": "1",
+        "points": "6",
+        "total_points": "28"
+    },
+    {
+        "id": "12",
+        "name": "Alex Telles",
+        "team": "9",
+        "pos": "1",
+        "points": "8",
+        "total_points": "27"
+    },
+    {
+        "id": "13",
+        "name": "Trent Alexander Arnold",
+        "team": "3",
+        "pos": "1",
+        "points": "4",
+        "total_points": "12"
+    },
+    {
+        "id": "14",
+        "name": "Alisson",
+        "team": "3",
+        "pos": "0",
+        "points": "2",
+        "total_points": "27"
+    },
+    {
+        "id": "15",
+        "name": "Allan",
+        "team": "11",
+        "pos": "2",
+        "points": "4",
+        "total_points": "20"
+    },
+    {
+        "id": "16",
+        "name": "Dele Alli",
+        "team": "11",
+        "pos": "2",
+        "points": "7",
+        "total_points": "15"
+    },
+    {
+        "id": "17",
+        "name": "Miguel Almircn",
+        "team": "12",
+        "pos": "2",
+        "points": "9",
+        "total_points": "13"
+    },
+    {
+        "id": "18",
+        "name": "lvaro FernEndez",
+        "team": "9",
+        "pos": "1",
+        "points": "1",
+        "total_points": "16"
+    },
+    {
+        "id": "19",
+        "name": "lvaro FernEndez",
+        "team": "6",
+        "pos": "0",
+        "points": "6",
+        "total_points": "23"
+    },
+    {
+        "id": "20",
+        "name": "Will Alves",
+        "team": "8",
+        "pos": "2",
+        "points": "9",
+        "total_points": "14"
+    },
+    {
+        "id": "21",
+        "name": "Steven Alzate",
+        "team": "13",
+        "pos": "2",
+        "points": "6",
+        "total_points": "21"
+    },
+    {
+        "id": "22",
+        "name": "Daniel Amartey",
+        "team": "8",
+        "pos": "2",
+        "points": "3",
+        "total_points": "26"
+    },
+    {
+        "id": "23",
+        "name": "Joachim Andersen",
+        "team": "2",
+        "pos": "1",
+        "points": "9",
+        "total_points": "17"
+    },
+    {
+        "id": "24",
+        "name": "Andra Gomes",
+        "team": "11",
+        "pos": "2",
+        "points": "7",
+        "total_points": "14"
+    },
+    {
+        "id": "25",
+        "name": "Vincent Angelini",
+        "team": "4",
+        "pos": "0",
+        "points": "9",
+        "total_points": "14"
+    },
+    {
+        "id": "26",
+        "name": "Michail Antonio",
+        "team": "10",
+        "pos": "3",
+        "points": "3",
+        "total_points": "14"
+    },
+    {
+        "id": "27",
+        "name": "Keenan Appiah-Forson",
+        "team": "10",
+        "pos": "2",
+        "points": "2",
+        "total_points": "13"
+    },
+    {
+        "id": "28",
+        "name": "Alphonse Araola",
+        "team": "10",
+        "pos": "0",
+        "points": "9",
+        "total_points": "15"
+    },
+    {
+        "id": "29",
+        "name": "Adam Armstrong",
+        "team": "1",
+        "pos": "3",
+        "points": "5",
+        "total_points": "19"
+    },
+    {
+        "id": "30",
+        "name": "Stuart Armstrong",
+        "team": "1",
+        "pos": "2",
+        "points": "1",
+        "total_points": "13"
+    },
+    {
+        "id": "31",
+        "name": "Harrison Ashby",
+        "team": "10",
+        "pos": "1",
+        "points": "7",
+        "total_points": "28"
+    },
+    {
+        "id": "32",
+        "name": "Ryan Astley",
+        "team": "11",
+        "pos": "1",
+        "points": "4",
+        "total_points": "16"
+    },
+    {
+        "id": "33",
+        "name": "Brandon Austin",
+        "team": "14",
+        "pos": "0",
+        "points": "1",
+        "total_points": "13"
+    },
+    {
+        "id": "34",
+        "name": "Zach Awe",
+        "team": "15",
+        "pos": "1",
+        "points": "3",
+        "total_points": "12"
+    },
+    {
+        "id": "35",
+        "name": "Jordan Ayew",
+        "team": "2",
+        "pos": "3",
+        "points": "5",
+        "total_points": "22"
+    },
+    {
+        "id": "36",
+        "name": "Luke Ayling",
+        "team": "18",
+        "pos": "1",
+        "points": "7",
+        "total_points": "13"
+    },
+    {
+        "id": "37",
+        "name": "Ayoze Parez",
+        "team": "8",
+        "pos": "3",
+        "points": "6",
+        "total_points": "26"
+    },
+    {
+        "id": "38",
+        "name": "Miguel Azeez",
+        "team": "15",
+        "pos": "2",
+        "points": "6",
+        "total_points": "26"
+    },
+    {
+        "id": "39",
+        "name": "Azpilicueta",
+        "team": "16",
+        "pos": "1",
+        "points": "8",
+        "total_points": "22"
+    },
+    {
+        "id": "40",
+        "name": "Kwadwo Baah",
+        "team": "4",
+        "pos": "3",
+        "points": "1",
+        "total_points": "28"
+    },
+    {
+        "id": "41",
+        "name": "Daniel Bachmann",
+        "team": "4",
+        "pos": "0",
+        "points": "6",
+        "total_points": "21"
+    },
+    {
+        "id": "42",
+        "name": "Leon Bailey",
+        "team": "17",
+        "pos": "3",
+        "points": "3",
+        "total_points": "24"
+    },
+    {
+        "id": "43",
+        "name": "Eric Bailly",
+        "team": "9",
+        "pos": "1",
+        "points": "5",
+        "total_points": "21"
+    },
+    {
+        "id": "44",
+        "name": "James Balagizi",
+        "team": "3",
+        "pos": "3",
+        "points": "6",
+        "total_points": "10"
+    },
+    {
+        "id": "45",
+        "name": "Tudor Blu",
+        "team": "13",
+        "pos": "2",
+        "points": "1",
+        "total_points": "26"
+    },
+    {
+        "id": "46",
+        "name": "Patrick Bamford",
+        "team": "18",
+        "pos": "3",
+        "points": "3",
+        "total_points": "20"
+    },
+    {
+        "id": "47",
+        "name": "Scott Banks",
+        "team": "2",
+        "pos": "2",
+        "points": "1",
+        "total_points": "21"
+    },
+    {
+        "id": "48",
+        "name": "Jamal Baptiste",
+        "team": "10",
+        "pos": "1",
+        "points": "2",
+        "total_points": "24"
+    },
+    {
+        "id": "49",
+        "name": "Shandon Baptiste",
+        "team": "6",
+        "pos": "2",
+        "points": "9",
+        "total_points": "19"
+    },
+    {
+        "id": "50",
+        "name": "Phil Bardsley",
+        "team": "19",
+        "pos": "1",
+        "points": "2",
+        "total_points": "11"
+    },
+    {
+        "id": "51",
+        "name": "Ross Barkley",
+        "team": "16",
+        "pos": "2",
+        "points": "8",
+        "total_points": "27"
+    },
+    {
+        "id": "52",
+        "name": "Ashley Barnes",
+        "team": "19",
+        "pos": "3",
+        "points": "7",
+        "total_points": "17"
+    },
+    {
+        "id": "53",
+        "name": "Harvey Barnes",
+        "team": "8",
+        "pos": "2",
+        "points": "4",
+        "total_points": "10"
+    },
+    {
+        "id": "54",
+        "name": "Lewis Bate",
+        "team": "18",
+        "pos": "2",
+        "points": "8",
+        "total_points": "25"
+    },
+    {
+        "id": "55",
+        "name": "Mads Bech Sorensen",
+        "team": "6",
+        "pos": "1",
+        "points": "6",
+        "total_points": "18"
+    },
+    {
+        "id": "56",
+        "name": "Owen Beck",
+        "team": "3",
+        "pos": "2",
+        "points": "4",
+        "total_points": "11"
+    },
+    {
+        "id": "57",
+        "name": "Jan Bednarek",
+        "team": "1",
+        "pos": "1",
+        "points": "7",
+        "total_points": "18"
+    },
+    {
+        "id": "58",
+        "name": "Asmir Begovic",
+        "team": "11",
+        "pos": "0",
+        "points": "5",
+        "total_points": "20"
+    },
+    {
+        "id": "59",
+        "name": "Sa\u008bd Benrahma",
+        "team": "10",
+        "pos": "3",
+        "points": "5",
+        "total_points": "13"
+    },
+    {
+        "id": "60",
+        "name": "Rodrigo Bentancur",
+        "team": "14",
+        "pos": "2",
+        "points": "2",
+        "total_points": "12"
+    },
+    {
+        "id": "61",
+        "name": "Christian Benteke",
+        "team": "2",
+        "pos": "3",
+        "points": "6",
+        "total_points": "16"
+    },
+    {
+        "id": "62",
+        "name": "Lucas Bergstrom",
+        "team": "16",
+        "pos": "0",
+        "points": "3",
+        "total_points": "23"
+    },
+    {
+        "id": "63",
+        "name": "Steven Bergwijn",
+        "team": "14",
+        "pos": "3",
+        "points": "9",
+        "total_points": "21"
+    },
+    {
+        "id": "64",
+        "name": "Bernardo Silva",
+        "team": "7",
+        "pos": "2",
+        "points": "6",
+        "total_points": "14"
+    },
+    {
+        "id": "65",
+        "name": "Ryan Bertrand",
+        "team": "8",
+        "pos": "1",
+        "points": "4",
+        "total_points": "28"
+    },
+    {
+        "id": "66",
+        "name": "Marcus Bettinelli",
+        "team": "16",
+        "pos": "0",
+        "points": "4",
+        "total_points": "25"
+    },
+    {
+        "id": "67",
+        "name": "Mika Biereth",
+        "team": "15",
+        "pos": "3",
+        "points": "9",
+        "total_points": "25"
+    },
+    {
+        "id": "68",
+        "name": "Yves Bissouma",
+        "team": "13",
+        "pos": "2",
+        "points": "7",
+        "total_points": "12"
+    },
+    {
+        "id": "69",
+        "name": "Harvey Blair",
+        "team": "3",
+        "pos": "2",
+        "points": "1",
+        "total_points": "27"
+    },
+    {
+        "id": "70",
+        "name": "Adrian Blake",
+        "team": "4",
+        "pos": "2",
+        "points": "8",
+        "total_points": "18"
+    },
+    {
+        "id": "71",
+        "name": "Oscar Bobb",
+        "team": "7",
+        "pos": "2",
+        "points": "4",
+        "total_points": "27"
+    },
+    {
+        "id": "72",
+        "name": "Lamare Bogarde",
+        "team": "17",
+        "pos": "1",
+        "points": "6",
+        "total_points": "11"
+    },
+    {
+        "id": "73",
+        "name": "Willy Boly",
+        "team": "5",
+        "pos": "1",
+        "points": "6",
+        "total_points": "25"
+    },
+    {
+        "id": "74",
+        "name": "Jamie Bowden",
+        "team": "14",
+        "pos": "2",
+        "points": "8",
+        "total_points": "19"
+    },
+    {
+        "id": "75",
+        "name": "Jarrod Bowen",
+        "team": "10",
+        "pos": "3",
+        "points": "9",
+        "total_points": "27"
+    },
+    {
+        "id": "76",
+        "name": "Conor Bradley",
+        "team": "3",
+        "pos": "2",
+        "points": "4",
+        "total_points": "12"
+    },
+    {
+        "id": "77",
+        "name": "Jarrad Branthwaite",
+        "team": "11",
+        "pos": "1",
+        "points": "5",
+        "total_points": "20"
+    },
+    {
+        "id": "78",
+        "name": "Sammy Braybrooke",
+        "team": "8",
+        "pos": "2",
+        "points": "6",
+        "total_points": "15"
+    },
+    {
+        "id": "79",
+        "name": "Armando Broja",
+        "team": "1",
+        "pos": "3",
+        "points": "5",
+        "total_points": "13"
+    },
+    {
+        "id": "80",
+        "name": "Josh Brownhill",
+        "team": "19",
+        "pos": "2",
+        "points": "1",
+        "total_points": "13"
+    },
+    {
+        "id": "81",
+        "name": "Bruno Fernandes",
+        "team": "9",
+        "pos": "2",
+        "points": "7",
+        "total_points": "28"
+    },
+    {
+        "id": "82",
+        "name": "Bruno Guimaraes",
+        "team": "12",
+        "pos": "2",
+        "points": "6",
+        "total_points": "14"
+    },
+    {
+        "id": "83",
+        "name": "Lewis Brunt",
+        "team": "8",
+        "pos": "2",
+        "points": "1",
+        "total_points": "17"
+    },
+    {
+        "id": "84",
+        "name": "Emiliano Buendia",
+        "team": "17",
+        "pos": "3",
+        "points": "6",
+        "total_points": "17"
+    },
+    {
+        "id": "85",
+        "name": "Dan Burn",
+        "team": "12",
+        "pos": "1",
+        "points": "5",
+        "total_points": "20"
+    },
+    {
+        "id": "86",
+        "name": "Jack Butland",
+        "team": "2",
+        "pos": "0",
+        "points": "9",
+        "total_points": "12"
+    },
+    {
+        "id": "87",
+        "name": "Sam Byram",
+        "team": "0",
+        "pos": "1",
+        "points": "3",
+        "total_points": "10"
+    },
+    {
+        "id": "88",
+        "name": "Willy Caballero",
+        "team": "1",
+        "pos": "0",
+        "points": "1",
+        "total_points": "20"
+    },
+    {
+        "id": "89",
+        "name": "Moises Caicedo",
+        "team": "13",
+        "pos": "2",
+        "points": "9",
+        "total_points": "24"
+    },
+    {
+        "id": "90",
+        "name": "Dominic Calvert Lewin",
+        "team": "11",
+        "pos": "3",
+        "points": "4",
+        "total_points": "26"
+    },
+    {
+        "id": "91",
+        "name": "Chem Campbell",
+        "team": "5",
+        "pos": "2",
+        "points": "1",
+        "total_points": "19"
+    },
+    {
+        "id": "92",
+        "name": "Scott Carson",
+        "team": "7",
+        "pos": "0",
+        "points": "5",
+        "total_points": "15"
+    },
+    {
+        "id": "93",
+        "name": "Matty Cash",
+        "team": "17",
+        "pos": "1",
+        "points": "8",
+        "total_points": "10"
+    },
+    {
+        "id": "94",
+        "name": "Timothy Castagne",
+        "team": "8",
+        "pos": "1",
+        "points": "2",
+        "total_points": "13"
+    },
+    {
+        "id": "95",
+        "name": "Craig Cathcart",
+        "team": "4",
+        "pos": "1",
+        "points": "3",
+        "total_points": "15"
+    },
+    {
+        "id": "96",
+        "name": "Edinson Cavani",
+        "team": "9",
+        "pos": "3",
+        "points": "8",
+        "total_points": "23"
+    },
+    {
+        "id": "97",
+        "name": "C\u0082dric Soares",
+        "team": "15",
+        "pos": "1",
+        "points": "7",
+        "total_points": "26"
+    },
+    {
+        "id": "98",
+        "name": "Kallum Cesay",
+        "team": "14",
+        "pos": "2",
+        "points": "6",
+        "total_points": "20"
+    },
+    {
+        "id": "99",
+        "name": "Trevoh Chalobah",
+        "team": "16",
+        "pos": "2",
+        "points": "9",
+        "total_points": "19"
+    },
+    {
+        "id": "100",
+        "name": "Calum Chambers",
+        "team": "17",
+        "pos": "1",
+        "points": "9",
+        "total_points": "10"
+    },
+    {
+        "id": "101",
+        "name": "Kgaogelo Chauke",
+        "team": "1",
+        "pos": "2",
+        "points": "8",
+        "total_points": "16"
+    },
+    {
+        "id": "102",
+        "name": "Daniel Chesters",
+        "team": "10",
+        "pos": "2",
+        "points": "1",
+        "total_points": "13"
+    },
+    {
+        "id": "103",
+        "name": "Ben Chilwell",
+        "team": "16",
+        "pos": "1",
+        "points": "7",
+        "total_points": "19"
+    },
+    {
+        "id": "104",
+        "name": "Chiquinho",
+        "team": "5",
+        "pos": "3",
+        "points": "5",
+        "total_points": "12"
+    },
+    {
+        "id": "105",
+        "name": "Hamza Choudhury",
+        "team": "8",
+        "pos": "2",
+        "points": "6",
+        "total_points": "26"
+    },
+    {
+        "id": "106",
+        "name": "Benjamin Chrisene",
+        "team": "17",
+        "pos": "1",
+        "points": "9",
+        "total_points": "15"
+    },
+    {
+        "id": "107",
+        "name": "Andreas Christensen",
+        "team": "16",
+        "pos": "1",
+        "points": "3",
+        "total_points": "25"
+    },
+    {
+        "id": "108",
+        "name": "Carney Chukwuemeka",
+        "team": "17",
+        "pos": "2",
+        "points": "3",
+        "total_points": "14"
+    },
+    {
+        "id": "109",
+        "name": "Ciaran Clark",
+        "team": "12",
+        "pos": "1",
+        "points": "4",
+        "total_points": "21"
+    },
+    {
+        "id": "110",
+        "name": "Tom Cleverley",
+        "team": "4",
+        "pos": "2",
+        "points": "1",
+        "total_points": "28"
+    },
+    {
+        "id": "111",
+        "name": "Nathaniel Clyne",
+        "team": "2",
+        "pos": "1",
+        "points": "2",
+        "total_points": "28"
+    },
+    {
+        "id": "112",
+        "name": "Conor Coady",
+        "team": "5",
+        "pos": "1",
+        "points": "2",
+        "total_points": "26"
+    },
+    {
+        "id": "113",
+        "name": "Seamus Coleman",
+        "team": "11",
+        "pos": "1",
+        "points": "3",
+        "total_points": "26"
+    },
+    {
+        "id": "114",
+        "name": "Nathan Collins",
+        "team": "19",
+        "pos": "1",
+        "points": "8",
+        "total_points": "22"
+    },
+    {
+        "id": "115",
+        "name": "Liam Cooper",
+        "team": "18",
+        "pos": "1",
+        "points": "1",
+        "total_points": "13"
+    },
+    {
+        "id": "116",
+        "name": "Jack Cork",
+        "team": "19",
+        "pos": "2",
+        "points": "3",
+        "total_points": "22"
+    },
+    {
+        "id": "117",
+        "name": "Maxwel Cornet",
+        "team": "19",
+        "pos": "1",
+        "points": "1",
+        "total_points": "15"
+    },
+    {
+        "id": "118",
+        "name": "Dara Costelloe",
+        "team": "19",
+        "pos": "2",
+        "points": "2",
+        "total_points": "28"
+    },
+    {
+        "id": "119",
+        "name": "Vladimir Coufal",
+        "team": "10",
+        "pos": "1",
+        "points": "7",
+        "total_points": "22"
+    },
+    {
+        "id": "120",
+        "name": "Coutinho",
+        "team": "17",
+        "pos": "2",
+        "points": "6",
+        "total_points": "11"
+    },
+    {
+        "id": "121",
+        "name": "Matthew Cox",
+        "team": "6",
+        "pos": "0",
+        "points": "9",
+        "total_points": "26"
+    },
+    {
+        "id": "122",
+        "name": "Matthew Craig",
+        "team": "14",
+        "pos": "2",
+        "points": "2",
+        "total_points": "10"
+    },
+    {
+        "id": "123",
+        "name": "Aaron Cresswell",
+        "team": "10",
+        "pos": "1",
+        "points": "4",
+        "total_points": "17"
+    },
+    {
+        "id": "124",
+        "name": "Charlie Cresswell",
+        "team": "18",
+        "pos": "1",
+        "points": "3",
+        "total_points": "18"
+    },
+    {
+        "id": "125",
+        "name": "Cristiano Ronaldo",
+        "team": "9",
+        "pos": "3",
+        "points": "2",
+        "total_points": "18"
+    },
+    {
+        "id": "126",
+        "name": "Cucurella",
+        "team": "13",
+        "pos": "1",
+        "points": "1",
+        "total_points": "20"
+    },
+    {
+        "id": "127",
+        "name": "Tiago Cukur",
+        "team": "4",
+        "pos": "3",
+        "points": "1",
+        "total_points": "23"
+    },
+    {
+        "id": "128",
+        "name": "Luke Cundle",
+        "team": "5",
+        "pos": "2",
+        "points": "1",
+        "total_points": "15"
+    },
+    {
+        "id": "129",
+        "name": "Joshua Da Silva",
+        "team": "6",
+        "pos": "2",
+        "points": "8",
+        "total_points": "10"
+    },
+    {
+        "id": "130",
+        "name": "Patson Daka",
+        "team": "8",
+        "pos": "3",
+        "points": "2",
+        "total_points": "20"
+    },
+    {
+        "id": "131",
+        "name": "Stuart Dallas",
+        "team": "18",
+        "pos": "1",
+        "points": "2",
+        "total_points": "12"
+    },
+    {
+        "id": "132",
+        "name": "Daniel Podence",
+        "team": "5",
+        "pos": "3",
+        "points": "9",
+        "total_points": "14"
+    },
+    {
+        "id": "133",
+        "name": "Karl Darlow",
+        "team": "12",
+        "pos": "0",
+        "points": "5",
+        "total_points": "21"
+    },
+    {
+        "id": "134",
+        "name": "David Raya",
+        "team": "6",
+        "pos": "0",
+        "points": "4",
+        "total_points": "17"
+    },
+    {
+        "id": "135",
+        "name": "Ben Davies",
+        "team": "14",
+        "pos": "1",
+        "points": "8",
+        "total_points": "17"
+    },
+    {
+        "id": "136",
+        "name": "Harvey Davies",
+        "team": "3",
+        "pos": "0",
+        "points": "4",
+        "total_points": "17"
+    },
+    {
+        "id": "137",
+        "name": "Tom Davies",
+        "team": "11",
+        "pos": "2",
+        "points": "8",
+        "total_points": "12"
+    },
+    {
+        "id": "138",
+        "name": "Craig Dawson",
+        "team": "10",
+        "pos": "1",
+        "points": "4",
+        "total_points": "17"
+    },
+    {
+        "id": "139",
+        "name": "Lucas De Bolle",
+        "team": "12",
+        "pos": "2",
+        "points": "9",
+        "total_points": "16"
+    },
+    {
+        "id": "140",
+        "name": "Kevin De Bruyne",
+        "team": "7",
+        "pos": "2",
+        "points": "6",
+        "total_points": "27"
+    },
+    {
+        "id": "141",
+        "name": "De Gea",
+        "team": "9",
+        "pos": "0",
+        "points": "5",
+        "total_points": "17"
+    },
+    {
+        "id": "142",
+        "name": "Liam Delap",
+        "team": "7",
+        "pos": "3",
+        "points": "1",
+        "total_points": "19"
+    },
+    {
+        "id": "143",
+        "name": "Fabian Delph",
+        "team": "11",
+        "pos": "2",
+        "points": "2",
+        "total_points": "10"
+    },
+    {
+        "id": "144",
+        "name": "Leander Dendoncker",
+        "team": "5",
+        "pos": "2",
+        "points": "9",
+        "total_points": "20"
+    },
+    {
+        "id": "145",
+        "name": "Emmanuel Dennis",
+        "team": "4",
+        "pos": "3",
+        "points": "9",
+        "total_points": "21"
+    },
+    {
+        "id": "146",
+        "name": "Alfie Devine",
+        "team": "14",
+        "pos": "2",
+        "points": "9",
+        "total_points": "11"
+    },
+    {
+        "id": "147",
+        "name": "Kiernan Dewsbury Hall",
+        "team": "8",
+        "pos": "2",
+        "points": "5",
+        "total_points": "25"
+    },
+    {
+        "id": "148",
+        "name": "Ibrahima Diallo",
+        "team": "1",
+        "pos": "2",
+        "points": "6",
+        "total_points": "14"
+    },
+    {
+        "id": "149",
+        "name": "Luis Diaz",
+        "team": "3",
+        "pos": "3",
+        "points": "7",
+        "total_points": "18"
+    },
+    {
+        "id": "150",
+        "name": "Tyler Dibling",
+        "team": "1",
+        "pos": "2",
+        "points": "8",
+        "total_points": "12"
+    },
+    {
+        "id": "151",
+        "name": "Eric Dier",
+        "team": "14",
+        "pos": "1",
+        "points": "3",
+        "total_points": "16"
+    },
+    {
+        "id": "152",
+        "name": "Lucas Digne",
+        "team": "17",
+        "pos": "1",
+        "points": "5",
+        "total_points": "18"
+    },
+    {
+        "id": "153",
+        "name": "Diogo Dalot",
+        "team": "9",
+        "pos": "1",
+        "points": "2",
+        "total_points": "21"
+    },
+    {
+        "id": "154",
+        "name": "Diogo Jota",
+        "team": "3",
+        "pos": "3",
+        "points": "1",
+        "total_points": "23"
+    },
+    {
+        "id": "155",
+        "name": "Issa Diop",
+        "team": "10",
+        "pos": "1",
+        "points": "4",
+        "total_points": "13"
+    },
+    {
+        "id": "156",
+        "name": "Elijah Dixon-Bonner",
+        "team": "3",
+        "pos": "2",
+        "points": "3",
+        "total_points": "21"
+    },
+    {
+        "id": "157",
+        "name": "Moussa Djenepo",
+        "team": "1",
+        "pos": "3",
+        "points": "1",
+        "total_points": "19"
+    },
+    {
+        "id": "158",
+        "name": "Lewis Dobbin",
+        "team": "11",
+        "pos": "3",
+        "points": "5",
+        "total_points": "25"
+    },
+    {
+        "id": "159",
+        "name": "Owen Dodgson",
+        "team": "19",
+        "pos": "1",
+        "points": "3",
+        "total_points": "23"
+    },
+    {
+        "id": "160",
+        "name": "Matt Doherty",
+        "team": "14",
+        "pos": "1",
+        "points": "7",
+        "total_points": "21"
+    },
+    {
+        "id": "161",
+        "name": "Domingos Quina",
+        "team": "4",
+        "pos": "2",
+        "points": "1",
+        "total_points": "27"
+    },
+    {
+        "id": "162",
+        "name": "Abdoulaye Doucoure",
+        "team": "11",
+        "pos": "2",
+        "points": "7",
+        "total_points": "15"
+    },
+    {
+        "id": "163",
+        "name": "Douglas Luiz",
+        "team": "17",
+        "pos": "2",
+        "points": "2",
+        "total_points": "19"
+    },
+    {
+        "id": "164",
+        "name": "Kieran Dowell",
+        "team": "0",
+        "pos": "2",
+        "points": "2",
+        "total_points": "28"
+    },
+    {
+        "id": "165",
+        "name": "Martin D\u00a3bravka",
+        "team": "12",
+        "pos": "0",
+        "points": "9",
+        "total_points": "11"
+    },
+    {
+        "id": "166",
+        "name": "Shane Duffy",
+        "team": "13",
+        "pos": "1",
+        "points": "5",
+        "total_points": "18"
+    },
+    {
+        "id": "167",
+        "name": "Paul Dummett",
+        "team": "12",
+        "pos": "1",
+        "points": "5",
+        "total_points": "13"
+    },
+    {
+        "id": "168",
+        "name": "Lewis Dunk",
+        "team": "13",
+        "pos": "1",
+        "points": "7",
+        "total_points": "26"
+    },
+    {
+        "id": "169",
+        "name": "Ederson",
+        "team": "7",
+        "pos": "0",
+        "points": "1",
+        "total_points": "20"
+    },
+    {
+        "id": "170",
+        "name": "Odsonne Edouard",
+        "team": "2",
+        "pos": "3",
+        "points": "1",
+        "total_points": "15"
+    },
+    {
+        "id": "171",
+        "name": "Samuel Edozie",
+        "team": "7",
+        "pos": "3",
+        "points": "9",
+        "total_points": "16"
+    },
+    {
+        "id": "172",
+        "name": "CJ Egan Riley",
+        "team": "7",
+        "pos": "1",
+        "points": "2",
+        "total_points": "19"
+    },
+    {
+        "id": "173",
+        "name": "Pierre Ekwah Elimby",
+        "team": "10",
+        "pos": "1",
+        "points": "7",
+        "total_points": "16"
+    },
+    {
+        "id": "174",
+        "name": "Anwar El Ghazi",
+        "team": "11",
+        "pos": "3",
+        "points": "4",
+        "total_points": "11"
+    },
+    {
+        "id": "175",
+        "name": "Anthony Elanga",
+        "team": "9",
+        "pos": "3",
+        "points": "2",
+        "total_points": "17"
+    },
+    {
+        "id": "176",
+        "name": "Rob Elliot",
+        "team": "4",
+        "pos": "0",
+        "points": "9",
+        "total_points": "12"
+    },
+    {
+        "id": "177",
+        "name": "Harvey Elliott",
+        "team": "3",
+        "pos": "3",
+        "points": "5",
+        "total_points": "25"
+    },
+    {
+        "id": "178",
+        "name": "Mohamed Elneny",
+        "team": "15",
+        "pos": "2",
+        "points": "4",
+        "total_points": "12"
+    },
+    {
+        "id": "179",
+        "name": "Mohamed Elyounoussi",
+        "team": "1",
+        "pos": "3",
+        "points": "8",
+        "total_points": "24"
+    },
+    {
+        "id": "180",
+        "name": "Emerson Royal",
+        "team": "14",
+        "pos": "1",
+        "points": "2",
+        "total_points": "19"
+    },
+    {
+        "id": "181",
+        "name": "Christian Eriksen",
+        "team": "6",
+        "pos": "2",
+        "points": "7",
+        "total_points": "22"
+    },
+    {
+        "id": "182",
+        "name": "Peter Etebo",
+        "team": "4",
+        "pos": "2",
+        "points": "3",
+        "total_points": "28"
+    },
+    {
+        "id": "183",
+        "name": "Jonny Evans",
+        "team": "8",
+        "pos": "1",
+        "points": "2",
+        "total_points": "23"
+    },
+    {
+        "id": "184",
+        "name": "Oliver Ewing",
+        "team": "8",
+        "pos": "2",
+        "points": "3",
+        "total_points": "17"
+    },
+    {
+        "id": "185",
+        "name": "Eberechi Eze",
+        "team": "2",
+        "pos": "2",
+        "points": "1",
+        "total_points": "12"
+    },
+    {
+        "id": "186",
+        "name": "Lukasz Fabia?ski",
+        "team": "10",
+        "pos": "0",
+        "points": "4",
+        "total_points": "10"
+    },
+    {
+        "id": "187",
+        "name": "Fabinho",
+        "team": "3",
+        "pos": "2",
+        "points": "9",
+        "total_points": "11"
+    },
+    {
+        "id": "188",
+        "name": "Fabio Silva",
+        "team": "5",
+        "pos": "3",
+        "points": "5",
+        "total_points": "20"
+    },
+    {
+        "id": "189",
+        "name": "Malachi Fagan Walcott",
+        "team": "14",
+        "pos": "1",
+        "points": "5",
+        "total_points": "10"
+    },
+    {
+        "id": "190",
+        "name": "Josh Feeney",
+        "team": "17",
+        "pos": "1",
+        "points": "9",
+        "total_points": "12"
+    },
+    {
+        "id": "191",
+        "name": "Evan Ferguson",
+        "team": "13",
+        "pos": "3",
+        "points": "3",
+        "total_points": "11"
+    },
+    {
+        "id": "192",
+        "name": "Nathan Ferguson",
+        "team": "2",
+        "pos": "1",
+        "points": "3",
+        "total_points": "24"
+    },
+    {
+        "id": "193",
+        "name": "Federico Fern\u00a0ndez",
+        "team": "12",
+        "pos": "1",
+        "points": "1",
+        "total_points": "12"
+    },
+    {
+        "id": "194",
+        "name": "Fernandinho",
+        "team": "7",
+        "pos": "2",
+        "points": "8",
+        "total_points": "10"
+    },
+    {
+        "id": "195",
+        "name": "Marcelo Flores",
+        "team": "15",
+        "pos": "3",
+        "points": "7",
+        "total_points": "22"
+    },
+    {
+        "id": "196",
+        "name": "Phil Foden",
+        "team": "7",
+        "pos": "2",
+        "points": "8",
+        "total_points": "17"
+    },
+    {
+        "id": "197",
+        "name": "Wesley Fofana",
+        "team": "8",
+        "pos": "1",
+        "points": "3",
+        "total_points": "10"
+    },
+    {
+        "id": "198",
+        "name": "Shaqai Forde",
+        "team": "4",
+        "pos": "3",
+        "points": "9",
+        "total_points": "27"
+    },
+    {
+        "id": "199",
+        "name": "Adam Forshaw",
+        "team": "18",
+        "pos": "2",
+        "points": "1",
+        "total_points": "17"
+    },
+    {
+        "id": "200",
+        "name": "Fraser Forster",
+        "team": "1",
+        "pos": "0",
+        "points": "2",
+        "total_points": "14"
+    },
+    {
+        "id": "201",
+        "name": "Ben Foster",
+        "team": "4",
+        "pos": "0",
+        "points": "6",
+        "total_points": "20"
+    },
+    {
+        "id": "202",
+        "name": "Tariqe Fosu Henry",
+        "team": "6",
+        "pos": "3",
+        "points": "2",
+        "total_points": "20"
+    },
+    {
+        "id": "203",
+        "name": "Ryan Fraser",
+        "team": "12",
+        "pos": "3",
+        "points": "8",
+        "total_points": "27"
+    },
+    {
+        "id": "204",
+        "name": "Melkamu Frauendorf",
+        "team": "3",
+        "pos": "3",
+        "points": "8",
+        "total_points": "25"
+    },
+    {
+        "id": "205",
+        "name": "Fred",
+        "team": "9",
+        "pos": "2",
+        "points": "1",
+        "total_points": "23"
+    },
+    {
+        "id": "206",
+        "name": "Ryan Fredericks",
+        "team": "10",
+        "pos": "1",
+        "points": "7",
+        "total_points": "15"
+    },
+    {
+        "id": "207",
+        "name": "James Furlong",
+        "team": "13",
+        "pos": "1",
+        "points": "1",
+        "total_points": "15"
+    },
+    {
+        "id": "208",
+        "name": "Gabriel",
+        "team": "15",
+        "pos": "1",
+        "points": "3",
+        "total_points": "26"
+    },
+    {
+        "id": "209",
+        "name": "Gabriel Jesus",
+        "team": "7",
+        "pos": "3",
+        "points": "2",
+        "total_points": "15"
+    },
+    {
+        "id": "210",
+        "name": "Gabriel Martinelli",
+        "team": "15",
+        "pos": "3",
+        "points": "7",
+        "total_points": "24"
+    },
+    {
+        "id": "211",
+        "name": "Conor Gallagher",
+        "team": "2",
+        "pos": "2",
+        "points": "4",
+        "total_points": "27"
+    },
+    {
+        "id": "212",
+        "name": "Dwight Gayle",
+        "team": "12",
+        "pos": "3",
+        "points": "2",
+        "total_points": "10"
+    },
+    {
+        "id": "213",
+        "name": "Joe Gelhardt",
+        "team": "18",
+        "pos": "3",
+        "points": "3",
+        "total_points": "25"
+    },
+    {
+        "id": "214",
+        "name": "Saman Ghoddos",
+        "team": "6",
+        "pos": "3",
+        "points": "5",
+        "total_points": "15"
+    },
+    {
+        "id": "215",
+        "name": "Dimitris Giannoulis",
+        "team": "0",
+        "pos": "1",
+        "points": "9",
+        "total_points": "17"
+    },
+    {
+        "id": "216",
+        "name": "Liam Gibbs",
+        "team": "0",
+        "pos": "2",
+        "points": "5",
+        "total_points": "25"
+    },
+    {
+        "id": "217",
+        "name": "Ben Gibson",
+        "team": "0",
+        "pos": "1",
+        "points": "9",
+        "total_points": "10"
+    },
+    {
+        "id": "218",
+        "name": "Mark Gillespie",
+        "team": "12",
+        "pos": "0",
+        "points": "8",
+        "total_points": "20"
+    },
+    {
+        "id": "219",
+        "name": "Billy Gilmour",
+        "team": "0",
+        "pos": "2",
+        "points": "1",
+        "total_points": "28"
+    },
+    {
+        "id": "220",
+        "name": "Ben Godfrey",
+        "team": "11",
+        "pos": "1",
+        "points": "4",
+        "total_points": "19"
+    },
+    {
+        "id": "221",
+        "name": "Pierluigi Gollini",
+        "team": "14",
+        "pos": "0",
+        "points": "8",
+        "total_points": "19"
+    },
+    {
+        "id": "222",
+        "name": "Joe Gomez",
+        "team": "3",
+        "pos": "1",
+        "points": "5",
+        "total_points": "21"
+    },
+    {
+        "id": "223",
+        "name": "Anthony Gomez Mancini",
+        "team": "19",
+        "pos": "2",
+        "points": "7",
+        "total_points": "19"
+    },
+    {
+        "id": "224",
+        "name": "Anthony Gordon",
+        "team": "11",
+        "pos": "3",
+        "points": "5",
+        "total_points": "26"
+    },
+    {
+        "id": "225",
+        "name": "Kaide Gordon",
+        "team": "3",
+        "pos": "3",
+        "points": "7",
+        "total_points": "16"
+    },
+    {
+        "id": "226",
+        "name": "Lewis Gordon",
+        "team": "6",
+        "pos": "1",
+        "points": "6",
+        "total_points": "22"
+    },
+    {
+        "id": "227",
+        "name": "Dan Gosling",
+        "team": "4",
+        "pos": "2",
+        "points": "5",
+        "total_points": "23"
+    },
+    {
+        "id": "228",
+        "name": "Lee Grant",
+        "team": "9",
+        "pos": "0",
+        "points": "6",
+        "total_points": "24"
+    },
+    {
+        "id": "229",
+        "name": "Archie Gray",
+        "team": "18",
+        "pos": "3",
+        "points": "5",
+        "total_points": "18"
+    },
+    {
+        "id": "230",
+        "name": "Demarai Gray",
+        "team": "11",
+        "pos": "3",
+        "points": "4",
+        "total_points": "27"
+    },
+    {
+        "id": "231",
+        "name": "Jack Grealish",
+        "team": "7",
+        "pos": "2",
+        "points": "8",
+        "total_points": "17"
+    },
+    {
+        "id": "232",
+        "name": "Mason Greenwood",
+        "team": "9",
+        "pos": "3",
+        "points": "4",
+        "total_points": "26"
+    },
+    {
+        "id": "233",
+        "name": "Sam Greenwood",
+        "team": "18",
+        "pos": "3",
+        "points": "1",
+        "total_points": "22"
+    },
+    {
+        "id": "234",
+        "name": "Jack Grieves",
+        "team": "4",
+        "pos": "3",
+        "points": "2",
+        "total_points": "12"
+    },
+    {
+        "id": "235",
+        "name": "Pascal Grob",
+        "team": "13",
+        "pos": "2",
+        "points": "2",
+        "total_points": "14"
+    },
+    {
+        "id": "236",
+        "name": "Guaita",
+        "team": "2",
+        "pos": "0",
+        "points": "4",
+        "total_points": "24"
+    },
+    {
+        "id": "237",
+        "name": "Johann Guomundsson",
+        "team": "19",
+        "pos": "2",
+        "points": "8",
+        "total_points": "24"
+    },
+    {
+        "id": "238",
+        "name": "Marc Guehi",
+        "team": "2",
+        "pos": "1",
+        "points": "4",
+        "total_points": "20"
+    },
+    {
+        "id": "239",
+        "name": "?lkay Gundogan",
+        "team": "7",
+        "pos": "2",
+        "points": "8",
+        "total_points": "18"
+    },
+    {
+        "id": "240",
+        "name": "Angus Gunn",
+        "team": "0",
+        "pos": "0",
+        "points": "5",
+        "total_points": "15"
+    },
+    {
+        "id": "241",
+        "name": "Lewis Hall",
+        "team": "16",
+        "pos": "2",
+        "points": "3",
+        "total_points": "25"
+    },
+    {
+        "id": "242",
+        "name": "Grant Hanley",
+        "team": "0",
+        "pos": "1",
+        "points": "5",
+        "total_points": "28"
+    },
+    {
+        "id": "243",
+        "name": "Reece Hannam",
+        "team": "2",
+        "pos": "1",
+        "points": "5",
+        "total_points": "20"
+    },
+    {
+        "id": "244",
+        "name": "Bjorn Hardley",
+        "team": "9",
+        "pos": "1",
+        "points": "8",
+        "total_points": "18"
+    },
+    {
+        "id": "245",
+        "name": "Jack Harrison",
+        "team": "18",
+        "pos": "2",
+        "points": "8",
+        "total_points": "14"
+    },
+    {
+        "id": "246",
+        "name": "Kortney Hause",
+        "team": "17",
+        "pos": "1",
+        "points": "1",
+        "total_points": "17"
+    },
+    {
+        "id": "247",
+        "name": "Kai Havertz",
+        "team": "16",
+        "pos": "2",
+        "points": "6",
+        "total_points": "20"
+    },
+    {
+        "id": "248",
+        "name": "Isaac Hayden",
+        "team": "12",
+        "pos": "2",
+        "points": "1",
+        "total_points": "26"
+    },
+    {
+        "id": "249",
+        "name": "Kaine Hayden",
+        "team": "17",
+        "pos": "2",
+        "points": "1",
+        "total_points": "11"
+    },
+    {
+        "id": "250",
+        "name": "Max Haygarth",
+        "team": "6",
+        "pos": "2",
+        "points": "5",
+        "total_points": "17"
+    },
+    {
+        "id": "251",
+        "name": "Tom Heaton",
+        "team": "9",
+        "pos": "0",
+        "points": "7",
+        "total_points": "19"
+    },
+    {
+        "id": "252",
+        "name": "Mark Helm",
+        "team": "19",
+        "pos": "2",
+        "points": "3",
+        "total_points": "19"
+    },
+    {
+        "id": "253",
+        "name": "Dean Henderson",
+        "team": "9",
+        "pos": "0",
+        "points": "1",
+        "total_points": "22"
+    },
+    {
+        "id": "254",
+        "name": "Jordan Henderson",
+        "team": "3",
+        "pos": "2",
+        "points": "7",
+        "total_points": "14"
+    },
+    {
+        "id": "255",
+        "name": "Wayne Hennessey",
+        "team": "19",
+        "pos": "0",
+        "points": "6",
+        "total_points": "21"
+    },
+    {
+        "id": "256",
+        "name": "Rico Henry",
+        "team": "6",
+        "pos": "1",
+        "points": "8",
+        "total_points": "18"
+    },
+    {
+        "id": "257",
+        "name": "Cucho Hernandez",
+        "team": "4",
+        "pos": "3",
+        "points": "6",
+        "total_points": "14"
+    },
+    {
+        "id": "258",
+        "name": "Leo Hjelde",
+        "team": "18",
+        "pos": "1",
+        "points": "7",
+        "total_points": "15"
+    },
+    {
+        "id": "259",
+        "name": "Ki Jana Hoever",
+        "team": "5",
+        "pos": "1",
+        "points": "7",
+        "total_points": "11"
+    },
+    {
+        "id": "260",
+        "name": "Rob Holding",
+        "team": "15",
+        "pos": "1",
+        "points": "9",
+        "total_points": "13"
+    },
+    {
+        "id": "261",
+        "name": "Mason Holgate",
+        "team": "11",
+        "pos": "1",
+        "points": "1",
+        "total_points": "28"
+    },
+    {
+        "id": "262",
+        "name": "Pierre Emile Hojbjerg",
+        "team": "14",
+        "pos": "2",
+        "points": "6",
+        "total_points": "14"
+    },
+    {
+        "id": "263",
+        "name": "Callum Hudson Odoi",
+        "team": "16",
+        "pos": "3",
+        "points": "4",
+        "total_points": "15"
+    },
+    {
+        "id": "264",
+        "name": "Will Hughes",
+        "team": "2",
+        "pos": "2",
+        "points": "5",
+        "total_points": "22"
+    },
+    {
+        "id": "265",
+        "name": "Hugo Bueno",
+        "team": "5",
+        "pos": "1",
+        "points": "3",
+        "total_points": "12"
+    },
+    {
+        "id": "266",
+        "name": "Omari Hutchinson",
+        "team": "15",
+        "pos": "2",
+        "points": "9",
+        "total_points": "28"
+    },
+    {
+        "id": "267",
+        "name": "Hee-chan Hwang",
+        "team": "5",
+        "pos": "3",
+        "points": "8",
+        "total_points": "15"
+    },
+    {
+        "id": "268",
+        "name": "Adam Idah",
+        "team": "0",
+        "pos": "3",
+        "points": "1",
+        "total_points": "15"
+    },
+    {
+        "id": "269",
+        "name": "Kelechi Iheanacho",
+        "team": "8",
+        "pos": "3",
+        "points": "5",
+        "total_points": "23"
+    },
+    {
+        "id": "270",
+        "name": "Danny Ings",
+        "team": "17",
+        "pos": "3",
+        "points": "1",
+        "total_points": "21"
+    },
+    {
+        "id": "271",
+        "name": "Zidane Iqbal",
+        "team": "9",
+        "pos": "2",
+        "points": "9",
+        "total_points": "18"
+    },
+    {
+        "id": "272",
+        "name": "Tim Iroegbunam",
+        "team": "17",
+        "pos": "2",
+        "points": "7",
+        "total_points": "18"
+    },
+    {
+        "id": "273",
+        "name": "Alex Iwobi",
+        "team": "11",
+        "pos": "3",
+        "points": "3",
+        "total_points": "12"
+    },
+    {
+        "id": "274",
+        "name": "Jaros?aw Jach",
+        "team": "2",
+        "pos": "1",
+        "points": "2",
+        "total_points": "28"
+    },
+    {
+        "id": "275",
+        "name": "Eldin Jakupovic",
+        "team": "8",
+        "pos": "0",
+        "points": "9",
+        "total_points": "17"
+    },
+    {
+        "id": "276",
+        "name": "Daniel James",
+        "team": "18",
+        "pos": "2",
+        "points": "9",
+        "total_points": "21"
+    },
+    {
+        "id": "277",
+        "name": "Reece James",
+        "team": "16",
+        "pos": "1",
+        "points": "8",
+        "total_points": "12"
+    },
+    {
+        "id": "278",
+        "name": "Vitaly Janelt",
+        "team": "6",
+        "pos": "2",
+        "points": "4",
+        "total_points": "11"
+    },
+    {
+        "id": "279",
+        "name": "Pontus Jansson",
+        "team": "6",
+        "pos": "1",
+        "points": "3",
+        "total_points": "18"
+    },
+    {
+        "id": "280",
+        "name": "Julian Jeanvier",
+        "team": "6",
+        "pos": "1",
+        "points": "2",
+        "total_points": "11"
+    },
+    {
+        "id": "281",
+        "name": "Jack Jenkins",
+        "team": "18",
+        "pos": "2",
+        "points": "8",
+        "total_points": "16"
+    },
+    {
+        "id": "282",
+        "name": "Mathias Jensen",
+        "team": "6",
+        "pos": "2",
+        "points": "1",
+        "total_points": "23"
+    },
+    {
+        "id": "283",
+        "name": "Raul Jimenez",
+        "team": "5",
+        "pos": "3",
+        "points": "9",
+        "total_points": "11"
+    },
+    {
+        "id": "284",
+        "name": "Joao Cancelo",
+        "team": "7",
+        "pos": "1",
+        "points": "1",
+        "total_points": "12"
+    },
+    {
+        "id": "285",
+        "name": "Joao Moutinho",
+        "team": "5",
+        "pos": "2",
+        "points": "1",
+        "total_points": "18"
+    },
+    {
+        "id": "286",
+        "name": "Joao Pedro",
+        "team": "4",
+        "pos": "3",
+        "points": "6",
+        "total_points": "11"
+    },
+    {
+        "id": "287",
+        "name": "Joelinton",
+        "team": "12",
+        "pos": "3",
+        "points": "8",
+        "total_points": "14"
+    },
+    {
+        "id": "288",
+        "name": "Ben Johnson",
+        "team": "10",
+        "pos": "1",
+        "points": "3",
+        "total_points": "13"
+    },
+    {
+        "id": "289",
+        "name": "Curtis Jones",
+        "team": "3",
+        "pos": "2",
+        "points": "3",
+        "total_points": "23"
+    },
+    {
+        "id": "290",
+        "name": "Phil Jones",
+        "team": "9",
+        "pos": "1",
+        "points": "1",
+        "total_points": "22"
+    },
+    {
+        "id": "291",
+        "name": "Jonny",
+        "team": "5",
+        "pos": "1",
+        "points": "1",
+        "total_points": "22"
+    },
+    {
+        "id": "292",
+        "name": "Jorginho",
+        "team": "16",
+        "pos": "2",
+        "points": "5",
+        "total_points": "15"
+    },
+    {
+        "id": "293",
+        "name": "Jose Sa",
+        "team": "5",
+        "pos": "0",
+        "points": "9",
+        "total_points": "23"
+    },
+    {
+        "id": "294",
+        "name": "Junior Firpo",
+        "team": "18",
+        "pos": "1",
+        "points": "2",
+        "total_points": "24"
+    },
+    {
+        "id": "295",
+        "name": "James Justin",
+        "team": "8",
+        "pos": "1",
+        "points": "7",
+        "total_points": "10"
+    },
+    {
+        "id": "296",
+        "name": "Ozan Kabak",
+        "team": "0",
+        "pos": "1",
+        "points": "9",
+        "total_points": "28"
+    },
+    {
+        "id": "297",
+        "name": "Christian Kabasele",
+        "team": "4",
+        "pos": "1",
+        "points": "1",
+        "total_points": "16"
+    },
+    {
+        "id": "298",
+        "name": "Samuel Kalu",
+        "team": "4",
+        "pos": "3",
+        "points": "1",
+        "total_points": "18"
+    },
+    {
+        "id": "299",
+        "name": "Abu Kamara",
+        "team": "0",
+        "pos": "2",
+        "points": "8",
+        "total_points": "20"
+    },
+    {
+        "id": "300",
+        "name": "Hassane Kamara",
+        "team": "4",
+        "pos": "1",
+        "points": "3",
+        "total_points": "16"
+    },
+    {
+        "id": "301",
+        "name": "Harry Kane",
+        "team": "14",
+        "pos": "3",
+        "points": "9",
+        "total_points": "15"
+    },
+    {
+        "id": "302",
+        "name": "NGolo Kante",
+        "team": "16",
+        "pos": "2",
+        "points": "1",
+        "total_points": "16"
+    },
+    {
+        "id": "303",
+        "name": "Loris Karius",
+        "team": "3",
+        "pos": "0",
+        "points": "9",
+        "total_points": "28"
+    },
+    {
+        "id": "304",
+        "name": "Edo Kayembe",
+        "team": "4",
+        "pos": "2",
+        "points": "8",
+        "total_points": "12"
+    },
+    {
+        "id": "305",
+        "name": "Kayky",
+        "team": "7",
+        "pos": "3",
+        "points": "1",
+        "total_points": "12"
+    },
+    {
+        "id": "306",
+        "name": "Michael Keane",
+        "team": "11",
+        "pos": "1",
+        "points": "2",
+        "total_points": "14"
+    },
+    {
+        "id": "307",
+        "name": "Naby Keita",
+        "team": "3",
+        "pos": "2",
+        "points": "3",
+        "total_points": "11"
+    },
+    {
+        "id": "308",
+        "name": "Caoimhin Kelleher",
+        "team": "3",
+        "pos": "0",
+        "points": "1",
+        "total_points": "27"
+    },
+    {
+        "id": "309",
+        "name": "Martin Kelly",
+        "team": "2",
+        "pos": "1",
+        "points": "3",
+        "total_points": "11"
+    },
+    {
+        "id": "310",
+        "name": "Kenedy",
+        "team": "16",
+        "pos": "2",
+        "points": "5",
+        "total_points": "27"
+    },
+    {
+        "id": "311",
+        "name": "Nohan Kenneh",
+        "team": "18",
+        "pos": "2",
+        "points": "5",
+        "total_points": "25"
+    },
+    {
+        "id": "312",
+        "name": "Jonjoe Kenny",
+        "team": "11",
+        "pos": "1",
+        "points": "9",
+        "total_points": "23"
+    },
+    {
+        "id": "313",
+        "name": "Kepa",
+        "team": "16",
+        "pos": "0",
+        "points": "5",
+        "total_points": "23"
+    },
+    {
+        "id": "314",
+        "name": "Kiko Femenia",
+        "team": "4",
+        "pos": "1",
+        "points": "1",
+        "total_points": "14"
+    },
+    {
+        "id": "315",
+        "name": "Max Kilman",
+        "team": "5",
+        "pos": "1",
+        "points": "9",
+        "total_points": "24"
+    },
+    {
+        "id": "316",
+        "name": "Joshua King",
+        "team": "4",
+        "pos": "3",
+        "points": "1",
+        "total_points": "27"
+    },
+    {
+        "id": "317",
+        "name": "Alex Kirk",
+        "team": "15",
+        "pos": "1",
+        "points": "4",
+        "total_points": "28"
+    },
+    {
+        "id": "318",
+        "name": "Kristoffer Klaesson",
+        "team": "18",
+        "pos": "0",
+        "points": "4",
+        "total_points": "25"
+    },
+    {
+        "id": "319",
+        "name": "Mateusz Klich",
+        "team": "18",
+        "pos": "2",
+        "points": "2",
+        "total_points": "14"
+    },
+    {
+        "id": "320",
+        "name": "Robin Koch",
+        "team": "18",
+        "pos": "1",
+        "points": "7",
+        "total_points": "13"
+    },
+    {
+        "id": "321",
+        "name": "Ibrahima Konate",
+        "team": "3",
+        "pos": "1",
+        "points": "4",
+        "total_points": "25"
+    },
+    {
+        "id": "322",
+        "name": "Ezri Konsa",
+        "team": "17",
+        "pos": "1",
+        "points": "2",
+        "total_points": "12"
+    },
+    {
+        "id": "323",
+        "name": "Billy Koumetio",
+        "team": "3",
+        "pos": "1",
+        "points": "7",
+        "total_points": "18"
+    },
+    {
+        "id": "324",
+        "name": "Cheikhou Kouyate",
+        "team": "2",
+        "pos": "1",
+        "points": "9",
+        "total_points": "21"
+    },
+    {
+        "id": "325",
+        "name": "Mateo Kovacic",
+        "team": "16",
+        "pos": "2",
+        "points": "5",
+        "total_points": "10"
+    },
+    {
+        "id": "326",
+        "name": "Emil Krafth",
+        "team": "12",
+        "pos": "1",
+        "points": "3",
+        "total_points": "25"
+    },
+    {
+        "id": "327",
+        "name": "Alex Kral",
+        "team": "10",
+        "pos": "2",
+        "points": "2",
+        "total_points": "11"
+    },
+    {
+        "id": "328",
+        "name": "Tim Krul",
+        "team": "0",
+        "pos": "0",
+        "points": "1",
+        "total_points": "10"
+    },
+    {
+        "id": "329",
+        "name": "Juraj Kucka",
+        "team": "4",
+        "pos": "2",
+        "points": "8",
+        "total_points": "20"
+    },
+    {
+        "id": "330",
+        "name": "Dejan Kulusevski",
+        "team": "14",
+        "pos": "3",
+        "points": "5",
+        "total_points": "25"
+    },
+    {
+        "id": "331",
+        "name": "Alexandre Lacazette",
+        "team": "15",
+        "pos": "3",
+        "points": "1",
+        "total_points": "17"
+    },
+    {
+        "id": "332",
+        "name": "Adam Lallana",
+        "team": "13",
+        "pos": "2",
+        "points": "1",
+        "total_points": "12"
+    },
+    {
+        "id": "333",
+        "name": "Tariq Lamptey",
+        "team": "13",
+        "pos": "1",
+        "points": "6",
+        "total_points": "19"
+    },
+    {
+        "id": "334",
+        "name": "Manuel Lanzini",
+        "team": "10",
+        "pos": "2",
+        "points": "9",
+        "total_points": "13"
+    },
+    {
+        "id": "335",
+        "name": "Aymeric Laporte",
+        "team": "7",
+        "pos": "1",
+        "points": "4",
+        "total_points": "26"
+    },
+    {
+        "id": "336",
+        "name": "Jamaal Lascelles",
+        "team": "12",
+        "pos": "1",
+        "points": "3",
+        "total_points": "23"
+    },
+    {
+        "id": "337",
+        "name": "Romeo Lavia",
+        "team": "7",
+        "pos": "1",
+        "points": "1",
+        "total_points": "10"
+    },
+    {
+        "id": "338",
+        "name": "Marcel Lavinier",
+        "team": "14",
+        "pos": "1",
+        "points": "5",
+        "total_points": "22"
+    },
+    {
+        "id": "339",
+        "name": "Pierre Lees Melou",
+        "team": "0",
+        "pos": "2",
+        "points": "1",
+        "total_points": "18"
+    },
+    {
+        "id": "340",
+        "name": "Dexter Lembikisa",
+        "team": "5",
+        "pos": "1",
+        "points": "2",
+        "total_points": "17"
+    },
+    {
+        "id": "341",
+        "name": "Aaron Lennon",
+        "team": "19",
+        "pos": "2",
+        "points": "2",
+        "total_points": "28"
+    },
+    {
+        "id": "342",
+        "name": "Bernd Leno",
+        "team": "15",
+        "pos": "0",
+        "points": "4",
+        "total_points": "18"
+    },
+    {
+        "id": "343",
+        "name": "Marc Leonard",
+        "team": "13",
+        "pos": "2",
+        "points": "7",
+        "total_points": "20"
+    },
+    {
+        "id": "344",
+        "name": "Harry Lewis",
+        "team": "1",
+        "pos": "0",
+        "points": "1",
+        "total_points": "24"
+    },
+    {
+        "id": "345",
+        "name": "Jamal Lewis",
+        "team": "12",
+        "pos": "1",
+        "points": "3",
+        "total_points": "20"
+    },
+    {
+        "id": "346",
+        "name": "Victor Lindelof",
+        "team": "9",
+        "pos": "1",
+        "points": "4",
+        "total_points": "14"
+    },
+    {
+        "id": "347",
+        "name": "Hayden Lindley",
+        "team": "17",
+        "pos": "2",
+        "points": "4",
+        "total_points": "28"
+    },
+    {
+        "id": "348",
+        "name": "Jesse Lingard",
+        "team": "9",
+        "pos": "2",
+        "points": "9",
+        "total_points": "25"
+    },
+    {
+        "id": "349",
+        "name": "Valentino Livramento",
+        "team": "1",
+        "pos": "1",
+        "points": "1",
+        "total_points": "27"
+    },
+    {
+        "id": "350",
+        "name": "Llorente",
+        "team": "18",
+        "pos": "1",
+        "points": "8",
+        "total_points": "17"
+    },
+    {
+        "id": "351",
+        "name": "Hugo Lloris",
+        "team": "14",
+        "pos": "0",
+        "points": "5",
+        "total_points": "20"
+    },
+    {
+        "id": "352",
+        "name": "Ruben Loftus Cheek",
+        "team": "16",
+        "pos": "2",
+        "points": "7",
+        "total_points": "12"
+    },
+    {
+        "id": "353",
+        "name": "Albert Sambi Lokonga",
+        "team": "15",
+        "pos": "2",
+        "points": "8",
+        "total_points": "26"
+    },
+    {
+        "id": "354",
+        "name": "Andy Lonergan",
+        "team": "11",
+        "pos": "0",
+        "points": "5",
+        "total_points": "15"
+    },
+    {
+        "id": "355",
+        "name": "Kevin Long",
+        "team": "19",
+        "pos": "1",
+        "points": "7",
+        "total_points": "10"
+    },
+    {
+        "id": "356",
+        "name": "Shane Long",
+        "team": "1",
+        "pos": "3",
+        "points": "2",
+        "total_points": "19"
+    },
+    {
+        "id": "357",
+        "name": "Emmanuel Longelo",
+        "team": "10",
+        "pos": "2",
+        "points": "5",
+        "total_points": "18"
+    },
+    {
+        "id": "358",
+        "name": "Sean Longstaff",
+        "team": "12",
+        "pos": "2",
+        "points": "5",
+        "total_points": "13"
+    },
+    {
+        "id": "359",
+        "name": "Ademola Lookman",
+        "team": "8",
+        "pos": "3",
+        "points": "1",
+        "total_points": "19"
+    },
+    {
+        "id": "360",
+        "name": "Jonas Lossl",
+        "team": "6",
+        "pos": "0",
+        "points": "8",
+        "total_points": "14"
+    },
+    {
+        "id": "361",
+        "name": "Imran Louza",
+        "team": "4",
+        "pos": "2",
+        "points": "5",
+        "total_points": "21"
+    },
+    {
+        "id": "362",
+        "name": "Matthew Lowton",
+        "team": "19",
+        "pos": "1",
+        "points": "3",
+        "total_points": "24"
+    },
+    {
+        "id": "363",
+        "name": "Lucas Moura",
+        "team": "14",
+        "pos": "3",
+        "points": "1",
+        "total_points": "14"
+    },
+    {
+        "id": "364",
+        "name": "Romelu Lukaku",
+        "team": "16",
+        "pos": "3",
+        "points": "8",
+        "total_points": "11"
+    },
+    {
+        "id": "365",
+        "name": "Lyanco",
+        "team": "1",
+        "pos": "1",
+        "points": "8",
+        "total_points": "23"
+    },
+    {
+        "id": "366",
+        "name": "Brooklyn Lyons Foster",
+        "team": "14",
+        "pos": "1",
+        "points": "2",
+        "total_points": "12"
+    },
+    {
+        "id": "367",
+        "name": "Isaac Mabaya",
+        "team": "3",
+        "pos": "2",
+        "points": "2",
+        "total_points": "26"
+    },
+    {
+        "id": "368",
+        "name": "Alexis Mac Allister",
+        "team": "13",
+        "pos": "2",
+        "points": "9",
+        "total_points": "15"
+    },
+    {
+        "id": "369",
+        "name": "James Maddison",
+        "team": "8",
+        "pos": "2",
+        "points": "7",
+        "total_points": "25"
+    },
+    {
+        "id": "370",
+        "name": "Edmond Paris Maghoma",
+        "team": "6",
+        "pos": "2",
+        "points": "5",
+        "total_points": "18"
+    },
+    {
+        "id": "371",
+        "name": "Harry Maguire",
+        "team": "9",
+        "pos": "1",
+        "points": "8",
+        "total_points": "13"
+    },
+    {
+        "id": "372",
+        "name": "Riyad Mahrez",
+        "team": "7",
+        "pos": "3",
+        "points": "8",
+        "total_points": "13"
+    },
+    {
+        "id": "373",
+        "name": "Sadio Mane",
+        "team": "3",
+        "pos": "3",
+        "points": "9",
+        "total_points": "11"
+    },
+    {
+        "id": "374",
+        "name": "Manquillo",
+        "team": "12",
+        "pos": "1",
+        "points": "7",
+        "total_points": "17"
+    },
+    {
+        "id": "375",
+        "name": "Marcal",
+        "team": "5",
+        "pos": "1",
+        "points": "9",
+        "total_points": "20"
+    },
+    {
+        "id": "376",
+        "name": "Wanya Marcal Madivadua",
+        "team": "8",
+        "pos": "2",
+        "points": "1",
+        "total_points": "21"
+    },
+    {
+        "id": "377",
+        "name": "Marcelo",
+        "team": "3",
+        "pos": "0",
+        "points": "8",
+        "total_points": "26"
+    },
+    {
+        "id": "378",
+        "name": "Solly March",
+        "team": "13",
+        "pos": "2",
+        "points": "5",
+        "total_points": "26"
+    },
+    {
+        "id": "379",
+        "name": "Marcos Alonso",
+        "team": "16",
+        "pos": "1",
+        "points": "8",
+        "total_points": "22"
+    },
+    {
+        "id": "380",
+        "name": "David Martin",
+        "team": "10",
+        "pos": "0",
+        "points": "9",
+        "total_points": "26"
+    },
+    {
+        "id": "381",
+        "name": "Emiliano Mart\u00a1nez",
+        "team": "17",
+        "pos": "0",
+        "points": "7",
+        "total_points": "16"
+    },
+    {
+        "id": "382",
+        "name": "Adam Masina",
+        "team": "4",
+        "pos": "1",
+        "points": "4",
+        "total_points": "22"
+    },
+    {
+        "id": "383",
+        "name": "Arthur Masuaku",
+        "team": "10",
+        "pos": "1",
+        "points": "1",
+        "total_points": "19"
+    },
+    {
+        "id": "384",
+        "name": "Mata",
+        "team": "9",
+        "pos": "2",
+        "points": "3",
+        "total_points": "13"
+    },
+    {
+        "id": "385",
+        "name": "Jean Philippe Mateta",
+        "team": "2",
+        "pos": "3",
+        "points": "1",
+        "total_points": "16"
+    },
+    {
+        "id": "386",
+        "name": "Nemanja Matic",
+        "team": "9",
+        "pos": "2",
+        "points": "6",
+        "total_points": "10"
+    },
+    {
+        "id": "387",
+        "name": "Joel Matip",
+        "team": "3",
+        "pos": "1",
+        "points": "3",
+        "total_points": "16"
+    },
+    {
+        "id": "388",
+        "name": "Remi Matthews",
+        "team": "2",
+        "pos": "0",
+        "points": "1",
+        "total_points": "24"
+    },
+    {
+        "id": "389",
+        "name": "Neal Maupay",
+        "team": "13",
+        "pos": "3",
+        "points": "8",
+        "total_points": "12"
+    },
+    {
+        "id": "390",
+        "name": "Luke Mbete Tatu",
+        "team": "7",
+        "pos": "1",
+        "points": "4",
+        "total_points": "18"
+    },
+    {
+        "id": "391",
+        "name": "Bryan Mbeumo",
+        "team": "6",
+        "pos": "3",
+        "points": "8",
+        "total_points": "18"
+    },
+    {
+        "id": "392",
+        "name": "Xavier Mbuyamba",
+        "team": "16",
+        "pos": "1",
+        "points": "9",
+        "total_points": "13"
+    },
+    {
+        "id": "393",
+        "name": "James McArthur",
+        "team": "2",
+        "pos": "2",
+        "points": "2",
+        "total_points": "11"
+    },
+    {
+        "id": "394",
+        "name": "James McAtee",
+        "team": "7",
+        "pos": "2",
+        "points": "1",
+        "total_points": "17"
+    },
+    {
+        "id": "395",
+        "name": "Liam McCarron",
+        "team": "18",
+        "pos": "3",
+        "points": "1",
+        "total_points": "19"
+    },
+    {
+        "id": "396",
+        "name": "Alex McCarthy",
+        "team": "1",
+        "pos": "0",
+        "points": "5",
+        "total_points": "17"
+    },
+    {
+        "id": "397",
+        "name": "Jon McCracken",
+        "team": "0",
+        "pos": "0",
+        "points": "3",
+        "total_points": "26"
+    },
+    {
+        "id": "398",
+        "name": "Thomas McGill",
+        "team": "13",
+        "pos": "0",
+        "points": "1",
+        "total_points": "27"
+    },
+    {
+        "id": "399",
+        "name": "John McGinn",
+        "team": "17",
+        "pos": "2",
+        "points": "3",
+        "total_points": "20"
+    },
+    {
+        "id": "400",
+        "name": "Joe McGlynn",
+        "team": "19",
+        "pos": "3",
+        "points": "3",
+        "total_points": "15"
+    },
+    {
+        "id": "401",
+        "name": "Michael McGovern",
+        "team": "0",
+        "pos": "0",
+        "points": "8",
+        "total_points": "26"
+    },
+    {
+        "id": "402",
+        "name": "Stuart McKinstry",
+        "team": "18",
+        "pos": "3",
+        "points": "7",
+        "total_points": "19"
+    },
+    {
+        "id": "403",
+        "name": "Kenny McLean",
+        "team": "0",
+        "pos": "2",
+        "points": "3",
+        "total_points": "23"
+    },
+    {
+        "id": "404",
+        "name": "Dwight McNeil",
+        "team": "19",
+        "pos": "3",
+        "points": "4",
+        "total_points": "24"
+    },
+    {
+        "id": "405",
+        "name": "Scott McTominay",
+        "team": "9",
+        "pos": "2",
+        "points": "1",
+        "total_points": "19"
+    },
+    {
+        "id": "406",
+        "name": "Ben Mee",
+        "team": "19",
+        "pos": "1",
+        "points": "6",
+        "total_points": "19"
+    },
+    {
+        "id": "407",
+        "name": "Hannibal Mejbri",
+        "team": "9",
+        "pos": "2",
+        "points": "4",
+        "total_points": "11"
+    },
+    {
+        "id": "408",
+        "name": "Benjamin Mendy",
+        "team": "7",
+        "pos": "1",
+        "points": "9",
+        "total_points": "20"
+    },
+    {
+        "id": "409",
+        "name": "Edouard Mendy",
+        "team": "16",
+        "pos": "0",
+        "points": "3",
+        "total_points": "20"
+    },
+    {
+        "id": "410",
+        "name": "Nampalys Mendy",
+        "team": "8",
+        "pos": "2",
+        "points": "4",
+        "total_points": "13"
+    },
+    {
+        "id": "411",
+        "name": "Illan Meslier",
+        "team": "18",
+        "pos": "0",
+        "points": "3",
+        "total_points": "18"
+    },
+    {
+        "id": "412",
+        "name": "Luka Milivojevic",
+        "team": "2",
+        "pos": "2",
+        "points": "6",
+        "total_points": "15"
+    },
+    {
+        "id": "413",
+        "name": "James Milner",
+        "team": "3",
+        "pos": "2",
+        "points": "1",
+        "total_points": "13"
+    },
+    {
+        "id": "414",
+        "name": "Yerry Mina",
+        "team": "11",
+        "pos": "1",
+        "points": "6",
+        "total_points": "12"
+    },
+    {
+        "id": "415",
+        "name": "Takumi Minamino",
+        "team": "3",
+        "pos": "2",
+        "points": "1",
+        "total_points": "10"
+    },
+    {
+        "id": "416",
+        "name": "Tyrone Mings",
+        "team": "17",
+        "pos": "1",
+        "points": "9",
+        "total_points": "10"
+    },
+    {
+        "id": "417",
+        "name": "Tyrick Mitchell",
+        "team": "2",
+        "pos": "1",
+        "points": "9",
+        "total_points": "16"
+    },
+    {
+        "id": "418",
+        "name": "Jakub Moder",
+        "team": "13",
+        "pos": "2",
+        "points": "8",
+        "total_points": "23"
+    },
+    {
+        "id": "419",
+        "name": "Kris Moore",
+        "team": "18",
+        "pos": "1",
+        "points": "1",
+        "total_points": "19"
+    },
+    {
+        "id": "420",
+        "name": "Andrew Moran",
+        "team": "13",
+        "pos": "2",
+        "points": "3",
+        "total_points": "17"
+    },
+    {
+        "id": "421",
+        "name": "James Morris",
+        "team": "4",
+        "pos": "1",
+        "points": "9",
+        "total_points": "10"
+    },
+    {
+        "id": "422",
+        "name": "Tyler Morton",
+        "team": "3",
+        "pos": "2",
+        "points": "5",
+        "total_points": "27"
+    },
+    {
+        "id": "423",
+        "name": "Yerson Mosquera",
+        "team": "5",
+        "pos": "1",
+        "points": "5",
+        "total_points": "11"
+    },
+    {
+        "id": "424",
+        "name": "Mason Mount",
+        "team": "16",
+        "pos": "2",
+        "points": "9",
+        "total_points": "15"
+    },
+    {
+        "id": "425",
+        "name": "Romaine Mundle",
+        "team": "14",
+        "pos": "2",
+        "points": "7",
+        "total_points": "13"
+    },
+    {
+        "id": "426",
+        "name": "Santiago Muoz",
+        "team": "12",
+        "pos": "3",
+        "points": "6",
+        "total_points": "25"
+    },
+    {
+        "id": "427",
+        "name": "Jacob Murphy",
+        "team": "12",
+        "pos": "3",
+        "points": "5",
+        "total_points": "20"
+    },
+    {
+        "id": "428",
+        "name": "Enock Mwepu",
+        "team": "13",
+        "pos": "2",
+        "points": "1",
+        "total_points": "15"
+    },
+    {
+        "id": "429",
+        "name": "Vitaliy Mykolenko",
+        "team": "11",
+        "pos": "1",
+        "points": "3",
+        "total_points": "23"
+    },
+    {
+        "id": "430",
+        "name": "Nicolas NKoulou",
+        "team": "4",
+        "pos": "1",
+        "points": "6",
+        "total_points": "20"
+    },
+    {
+        "id": "431",
+        "name": "Marvelous Nakamba",
+        "team": "17",
+        "pos": "2",
+        "points": "7",
+        "total_points": "16"
+    },
+    {
+        "id": "432",
+        "name": "Wilfred Ndidi",
+        "team": "8",
+        "pos": "2",
+        "points": "1",
+        "total_points": "10"
+    },
+    {
+        "id": "433",
+        "name": "Ben Nelson",
+        "team": "8",
+        "pos": "1",
+        "points": "3",
+        "total_points": "10"
+    },
+    {
+        "id": "434",
+        "name": "N\u0082lson Semedo",
+        "team": "5",
+        "pos": "1",
+        "points": "8",
+        "total_points": "24"
+    },
+    {
+        "id": "435",
+        "name": "Jeremy Ngakia",
+        "team": "4",
+        "pos": "1",
+        "points": "2",
+        "total_points": "12"
+    },
+    {
+        "id": "436",
+        "name": "Eddie Nketiah",
+        "team": "15",
+        "pos": "3",
+        "points": "1",
+        "total_points": "24"
+    },
+    {
+        "id": "437",
+        "name": "Mark Noble",
+        "team": "10",
+        "pos": "2",
+        "points": "3",
+        "total_points": "16"
+    },
+    {
+        "id": "438",
+        "name": "Mathias Normann",
+        "team": "0",
+        "pos": "2",
+        "points": "2",
+        "total_points": "21"
+    },
+    {
+        "id": "439",
+        "name": "James Norris",
+        "team": "3",
+        "pos": "2",
+        "points": "8",
+        "total_points": "13"
+    },
+    {
+        "id": "440",
+        "name": "Will Norris",
+        "team": "19",
+        "pos": "0",
+        "points": "6",
+        "total_points": "15"
+    },
+    {
+        "id": "441",
+        "name": "Christian Norgaard",
+        "team": "6",
+        "pos": "2",
+        "points": "1",
+        "total_points": "17"
+    },
+    {
+        "id": "442",
+        "name": "Nuno Tavares",
+        "team": "15",
+        "pos": "1",
+        "points": "9",
+        "total_points": "16"
+    },
+    {
+        "id": "443",
+        "name": "Tommi OReilly",
+        "team": "17",
+        "pos": "2",
+        "points": "6",
+        "total_points": "23"
+    },
+    {
+        "id": "444",
+        "name": "Chituru Odunze",
+        "team": "8",
+        "pos": "0",
+        "points": "3",
+        "total_points": "21"
+    },
+    {
+        "id": "445",
+        "name": "Odeluga Offiah",
+        "team": "13",
+        "pos": "2",
+        "points": "8",
+        "total_points": "18"
+    },
+    {
+        "id": "446",
+        "name": "Angelo Ogbonna",
+        "team": "10",
+        "pos": "1",
+        "points": "3",
+        "total_points": "17"
+    },
+    {
+        "id": "447",
+        "name": "Mazeed Ogungbo",
+        "team": "15",
+        "pos": "1",
+        "points": "8",
+        "total_points": "18"
+    },
+    {
+        "id": "448",
+        "name": "Armstrong Oko Flex",
+        "team": "10",
+        "pos": "3",
+        "points": "1",
+        "total_points": "24"
+    },
+    {
+        "id": "449",
+        "name": "Arthur Okonkwo",
+        "team": "15",
+        "pos": "0",
+        "points": "8",
+        "total_points": "19"
+    },
+    {
+        "id": "450",
+        "name": "Kazeem Olaigbe",
+        "team": "1",
+        "pos": "3",
+        "points": "5",
+        "total_points": "17"
+    },
+    {
+        "id": "451",
+        "name": "Michael Olise",
+        "team": "2",
+        "pos": "2",
+        "points": "5",
+        "total_points": "27"
+    },
+    {
+        "id": "452",
+        "name": "Robin Olsen",
+        "team": "17",
+        "pos": "0",
+        "points": "3",
+        "total_points": "25"
+    },
+    {
+        "id": "453",
+        "name": "Andrew Omobamidele",
+        "team": "0",
+        "pos": "1",
+        "points": "8",
+        "total_points": "18"
+    },
+    {
+        "id": "454",
+        "name": "Tobi Omole",
+        "team": "14",
+        "pos": "1",
+        "points": "7",
+        "total_points": "26"
+    },
+    {
+        "id": "455",
+        "name": "Tyler Onyango",
+        "team": "11",
+        "pos": "2",
+        "points": "6",
+        "total_points": "13"
+    },
+    {
+        "id": "456",
+        "name": "Frank Onyeka",
+        "team": "6",
+        "pos": "2",
+        "points": "1",
+        "total_points": "27"
+    },
+    {
+        "id": "457",
+        "name": "Divock Origi",
+        "team": "3",
+        "pos": "3",
+        "points": "1",
+        "total_points": "16"
+    },
+    {
+        "id": "458",
+        "name": "Oriol Romeu",
+        "team": "1",
+        "pos": "2",
+        "points": "9",
+        "total_points": "12"
+    },
+    {
+        "id": "459",
+        "name": "Salah Oulad Mhand",
+        "team": "15",
+        "pos": "2",
+        "points": "9",
+        "total_points": "13"
+    },
+    {
+        "id": "460",
+        "name": "Alex Oxlade Chamberlain",
+        "team": "3",
+        "pos": "2",
+        "points": "6",
+        "total_points": "11"
+    },
+    {
+        "id": "461",
+        "name": "Daniel Oyegoke",
+        "team": "6",
+        "pos": "1",
+        "points": "6",
+        "total_points": "11"
+    },
+    {
+        "id": "462",
+        "name": "Martin Odegaard",
+        "team": "15",
+        "pos": "2",
+        "points": "8",
+        "total_points": "11"
+    },
+    {
+        "id": "463",
+        "name": "Pablo Fornals",
+        "team": "10",
+        "pos": "2",
+        "points": "3",
+        "total_points": "19"
+    },
+    {
+        "id": "464",
+        "name": "Cole Palmer",
+        "team": "7",
+        "pos": "2",
+        "points": "7",
+        "total_points": "17"
+    },
+    {
+        "id": "465",
+        "name": "Thomas Partey",
+        "team": "15",
+        "pos": "2",
+        "points": "7",
+        "total_points": "27"
+    },
+    {
+        "id": "466",
+        "name": "Maksim Paskotsi",
+        "team": "14",
+        "pos": "1",
+        "points": "9",
+        "total_points": "28"
+    },
+    {
+        "id": "467",
+        "name": "Charlie Patino",
+        "team": "15",
+        "pos": "2",
+        "points": "2",
+        "total_points": "15"
+    },
+    {
+        "id": "468",
+        "name": "Nathan Patterson",
+        "team": "11",
+        "pos": "1",
+        "points": "7",
+        "total_points": "23"
+    },
+    {
+        "id": "469",
+        "name": "Myles Peart Harris",
+        "team": "6",
+        "pos": "2",
+        "points": "1",
+        "total_points": "25"
+    },
+    {
+        "id": "470",
+        "name": "Pedro Neto",
+        "team": "5",
+        "pos": "3",
+        "points": "5",
+        "total_points": "19"
+    },
+    {
+        "id": "471",
+        "name": "Nicolas Pepe",
+        "team": "15",
+        "pos": "3",
+        "points": "1",
+        "total_points": "13"
+    },
+    {
+        "id": "472",
+        "name": "Sonny Perkins",
+        "team": "10",
+        "pos": "2",
+        "points": "9",
+        "total_points": "22"
+    },
+    {
+        "id": "473",
+        "name": "Romain Perraud",
+        "team": "1",
+        "pos": "1",
+        "points": "8",
+        "total_points": "20"
+    },
+    {
+        "id": "474",
+        "name": "Kalvin Phillips",
+        "team": "18",
+        "pos": "2",
+        "points": "4",
+        "total_points": "15"
+    },
+    {
+        "id": "475",
+        "name": "Jordan Pickford",
+        "team": "11",
+        "pos": "0",
+        "points": "9",
+        "total_points": "25"
+    },
+    {
+        "id": "476",
+        "name": "Erik Pieters",
+        "team": "19",
+        "pos": "1",
+        "points": "4",
+        "total_points": "14"
+    },
+    {
+        "id": "477",
+        "name": "Ethan Pinnock",
+        "team": "6",
+        "pos": "1",
+        "points": "1",
+        "total_points": "17"
+    },
+    {
+        "id": "478",
+        "name": "Przemyslaw Placheta",
+        "team": "0",
+        "pos": "3",
+        "points": "1",
+        "total_points": "22"
+    },
+    {
+        "id": "479",
+        "name": "Paul Pogba",
+        "team": "9",
+        "pos": "2",
+        "points": "6",
+        "total_points": "25"
+    },
+    {
+        "id": "480",
+        "name": "Nick Pope",
+        "team": "19",
+        "pos": "0",
+        "points": "9",
+        "total_points": "13"
+    },
+    {
+        "id": "481",
+        "name": "Freddie Potts",
+        "team": "10",
+        "pos": "2",
+        "points": "1",
+        "total_points": "13"
+    },
+    {
+        "id": "482",
+        "name": "Isaac Price",
+        "team": "11",
+        "pos": "2",
+        "points": "2",
+        "total_points": "25"
+    },
+    {
+        "id": "483",
+        "name": "Teemu Pukki",
+        "team": "0",
+        "pos": "3",
+        "points": "4",
+        "total_points": "27"
+    },
+    {
+        "id": "484",
+        "name": "Christian Pulisic",
+        "team": "16",
+        "pos": "3",
+        "points": "1",
+        "total_points": "28"
+    },
+    {
+        "id": "485",
+        "name": "Jarell Quansah",
+        "team": "3",
+        "pos": "1",
+        "points": "1",
+        "total_points": "15"
+    },
+    {
+        "id": "486",
+        "name": "Jesurun Ra Sakyi",
+        "team": "2",
+        "pos": "2",
+        "points": "6",
+        "total_points": "16"
+    },
+    {
+        "id": "487",
+        "name": "Aaron Ramsdale",
+        "team": "15",
+        "pos": "0",
+        "points": "2",
+        "total_points": "21"
+    },
+    {
+        "id": "488",
+        "name": "Jacob Ramsey",
+        "team": "17",
+        "pos": "2",
+        "points": "1",
+        "total_points": "24"
+    },
+    {
+        "id": "489",
+        "name": "Darren Randolph",
+        "team": "10",
+        "pos": "0",
+        "points": "5",
+        "total_points": "11"
+    },
+    {
+        "id": "490",
+        "name": "Raphinha",
+        "team": "18",
+        "pos": "2",
+        "points": "1",
+        "total_points": "18"
+    },
+    {
+        "id": "491",
+        "name": "Marcus Rashford",
+        "team": "9",
+        "pos": "3",
+        "points": "2",
+        "total_points": "13"
+    },
+    {
+        "id": "492",
+        "name": "Milot Rashica",
+        "team": "0",
+        "pos": "3",
+        "points": "5",
+        "total_points": "24"
+    },
+    {
+        "id": "493",
+        "name": "Nathan Redmond",
+        "team": "1",
+        "pos": "3",
+        "points": "1",
+        "total_points": "24"
+    },
+    {
+        "id": "494",
+        "name": "Reguilon",
+        "team": "14",
+        "pos": "1",
+        "points": "2",
+        "total_points": "25"
+    },
+    {
+        "id": "495",
+        "name": "Ricardo Pereira",
+        "team": "8",
+        "pos": "1",
+        "points": "3",
+        "total_points": "18"
+    },
+    {
+        "id": "496",
+        "name": "Declan Rice",
+        "team": "10",
+        "pos": "2",
+        "points": "9",
+        "total_points": "21"
+    },
+    {
+        "id": "497",
+        "name": "Lewis Richardson",
+        "team": "19",
+        "pos": "3",
+        "points": "4",
+        "total_points": "24"
+    },
+    {
+        "id": "498",
+        "name": "Richarlison",
+        "team": "11",
+        "pos": "3",
+        "points": "5",
+        "total_points": "22"
+    },
+    {
+        "id": "499",
+        "name": "Ja\u008bro Riedewald",
+        "team": "2",
+        "pos": "2",
+        "points": "1",
+        "total_points": "16"
+    },
+    {
+        "id": "500",
+        "name": "Matt Ritchie",
+        "team": "12",
+        "pos": "1",
+        "points": "7",
+        "total_points": "24"
+    },
+    {
+        "id": "501",
+        "name": "Robert Sanchez",
+        "team": "13",
+        "pos": "0",
+        "points": "4",
+        "total_points": "12"
+    },
+    {
+        "id": "502",
+        "name": "Roberto Firmino",
+        "team": "3",
+        "pos": "3",
+        "points": "1",
+        "total_points": "23"
+    },
+    {
+        "id": "503",
+        "name": "Connor Roberts",
+        "team": "19",
+        "pos": "1",
+        "points": "3",
+        "total_points": "21"
+    },
+    {
+        "id": "504",
+        "name": "Haydon Roberts",
+        "team": "13",
+        "pos": "1",
+        "points": "8",
+        "total_points": "17"
+    },
+    {
+        "id": "505",
+        "name": "Tyler Roberts",
+        "team": "18",
+        "pos": "2",
+        "points": "7",
+        "total_points": "22"
+    },
+    {
+        "id": "506",
+        "name": "Andrew Robertson",
+        "team": "3",
+        "pos": "1",
+        "points": "3",
+        "total_points": "27"
+    },
+    {
+        "id": "507",
+        "name": "Joe Rodon",
+        "team": "14",
+        "pos": "1",
+        "points": "4",
+        "total_points": "24"
+    },
+    {
+        "id": "508",
+        "name": "Rodri",
+        "team": "7",
+        "pos": "2",
+        "points": "9",
+        "total_points": "27"
+    },
+    {
+        "id": "509",
+        "name": "Rodrigo",
+        "team": "18",
+        "pos": "3",
+        "points": "1",
+        "total_points": "21"
+    },
+    {
+        "id": "510",
+        "name": "Jay Rodriguez",
+        "team": "19",
+        "pos": "3",
+        "points": "1",
+        "total_points": "24"
+    },
+    {
+        "id": "511",
+        "name": "Mads Roerslev Rasmussen",
+        "team": "6",
+        "pos": "1",
+        "points": "9",
+        "total_points": "10"
+    },
+    {
+        "id": "512",
+        "name": "Cristian Romero",
+        "team": "14",
+        "pos": "1",
+        "points": "6",
+        "total_points": "19"
+    },
+    {
+        "id": "513",
+        "name": "Connor Ronan",
+        "team": "5",
+        "pos": "2",
+        "points": "2",
+        "total_points": "26"
+    },
+    {
+        "id": "514",
+        "name": "Salomon Rondon",
+        "team": "11",
+        "pos": "3",
+        "points": "8",
+        "total_points": "28"
+    },
+    {
+        "id": "515",
+        "name": "Danny Rose",
+        "team": "4",
+        "pos": "1",
+        "points": "9",
+        "total_points": "23"
+    },
+    {
+        "id": "516",
+        "name": "Jon Rowe",
+        "team": "0",
+        "pos": "3",
+        "points": "7",
+        "total_points": "27"
+    },
+    {
+        "id": "517",
+        "name": "R\u00a3ben Dias",
+        "team": "7",
+        "pos": "1",
+        "points": "9",
+        "total_points": "10"
+    },
+    {
+        "id": "518",
+        "name": "R\u00a3ben Neves",
+        "team": "5",
+        "pos": "2",
+        "points": "2",
+        "total_points": "18"
+    },
+    {
+        "id": "519",
+        "name": "John Ruddy",
+        "team": "5",
+        "pos": "0",
+        "points": "5",
+        "total_points": "23"
+    },
+    {
+        "id": "520",
+        "name": "Antonio Rudiger",
+        "team": "16",
+        "pos": "1",
+        "points": "5",
+        "total_points": "24"
+    },
+    {
+        "id": "521",
+        "name": "Lukas Rupp",
+        "team": "0",
+        "pos": "2",
+        "points": "1",
+        "total_points": "11"
+    },
+    {
+        "id": "522",
+        "name": "Allan Saint Maximin",
+        "team": "12",
+        "pos": "3",
+        "points": "9",
+        "total_points": "28"
+    },
+    {
+        "id": "523",
+        "name": "Romain Saiss",
+        "team": "5",
+        "pos": "1",
+        "points": "7",
+        "total_points": "13"
+    },
+    {
+        "id": "524",
+        "name": "Bukayo Saka",
+        "team": "15",
+        "pos": "2",
+        "points": "4",
+        "total_points": "16"
+    },
+    {
+        "id": "525",
+        "name": "Mo Salah",
+        "team": "3",
+        "pos": "3",
+        "points": "9",
+        "total_points": "19"
+    },
+    {
+        "id": "526",
+        "name": "Karim Salisu",
+        "team": "1",
+        "pos": "1",
+        "points": "1",
+        "total_points": "14"
+    },
+    {
+        "id": "527",
+        "name": "Samir",
+        "team": "4",
+        "pos": "1",
+        "points": "3",
+        "total_points": "28"
+    },
+    {
+        "id": "528",
+        "name": "Davinson Sanchez",
+        "team": "14",
+        "pos": "1",
+        "points": "1",
+        "total_points": "14"
+    },
+    {
+        "id": "529",
+        "name": "Jadon Sancho",
+        "team": "9",
+        "pos": "3",
+        "points": "7",
+        "total_points": "12"
+    },
+    {
+        "id": "530",
+        "name": "Morgan Sanson",
+        "team": "17",
+        "pos": "2",
+        "points": "2",
+        "total_points": "25"
+    },
+    {
+        "id": "531",
+        "name": "Josh Sargent",
+        "team": "0",
+        "pos": "3",
+        "points": "7",
+        "total_points": "14"
+    },
+    {
+        "id": "532",
+        "name": "Jeremy Sarmiento",
+        "team": "13",
+        "pos": "2",
+        "points": "1",
+        "total_points": "28"
+    },
+    {
+        "id": "533",
+        "name": "Isma\u008bla Sarr",
+        "team": "4",
+        "pos": "3",
+        "points": "4",
+        "total_points": "12"
+    },
+    {
+        "id": "534",
+        "name": "Malang Sarr",
+        "team": "16",
+        "pos": "1",
+        "points": "7",
+        "total_points": "24"
+    },
+    {
+        "id": "535",
+        "name": "Saul",
+        "team": "16",
+        "pos": "2",
+        "points": "2",
+        "total_points": "15"
+    },
+    {
+        "id": "536",
+        "name": "Charlie Savage",
+        "team": "9",
+        "pos": "2",
+        "points": "9",
+        "total_points": "17"
+    },
+    {
+        "id": "537",
+        "name": "Dane Scarlett",
+        "team": "14",
+        "pos": "3",
+        "points": "5",
+        "total_points": "25"
+    },
+    {
+        "id": "538",
+        "name": "Fabian Schar",
+        "team": "12",
+        "pos": "1",
+        "points": "1",
+        "total_points": "16"
+    },
+    {
+        "id": "539",
+        "name": "Jeffrey Schlupp",
+        "team": "2",
+        "pos": "2",
+        "points": "9",
+        "total_points": "20"
+    },
+    {
+        "id": "540",
+        "name": "Kasper Schmeichel",
+        "team": "8",
+        "pos": "0",
+        "points": "6",
+        "total_points": "11"
+    },
+    {
+        "id": "541",
+        "name": "Ken Sema",
+        "team": "4",
+        "pos": "2",
+        "points": "1",
+        "total_points": "11"
+    },
+    {
+        "id": "542",
+        "name": "Sergi Canos",
+        "team": "6",
+        "pos": "3",
+        "points": "1",
+        "total_points": "13"
+    },
+    {
+        "id": "543",
+        "name": "Ryan Sessegnon",
+        "team": "14",
+        "pos": "3",
+        "points": "4",
+        "total_points": "11"
+    },
+    {
+        "id": "544",
+        "name": "Jamie Shackleton",
+        "team": "18",
+        "pos": "2",
+        "points": "7",
+        "total_points": "18"
+    },
+    {
+        "id": "545",
+        "name": "Teddy Sharman Lowe",
+        "team": "16",
+        "pos": "0",
+        "points": "9",
+        "total_points": "23"
+    },
+    {
+        "id": "546",
+        "name": "Luke Shaw",
+        "team": "9",
+        "pos": "1",
+        "points": "1",
+        "total_points": "14"
+    },
+    {
+        "id": "547",
+        "name": "Jonjo Shelvey",
+        "team": "12",
+        "pos": "2",
+        "points": "8",
+        "total_points": "11"
+    },
+    {
+        "id": "548",
+        "name": "Shola Shoretire",
+        "team": "9",
+        "pos": "3",
+        "points": "9",
+        "total_points": "27"
+    },
+    {
+        "id": "549",
+        "name": "Francisco Sierralta",
+        "team": "4",
+        "pos": "1",
+        "points": "7",
+        "total_points": "23"
+    },
+    {
+        "id": "550",
+        "name": "Gylfi Sigurdsson",
+        "team": "11",
+        "pos": "2",
+        "points": "4",
+        "total_points": "19"
+    },
+    {
+        "id": "551",
+        "name": "Kamarai Simon Swyer",
+        "team": "10",
+        "pos": "2",
+        "points": "3",
+        "total_points": "17"
+    },
+    {
+        "id": "552",
+        "name": "Xavier Simons",
+        "team": "16",
+        "pos": "2",
+        "points": "8",
+        "total_points": "16"
+    },
+    {
+        "id": "553",
+        "name": "Viljami Sinisalo",
+        "team": "17",
+        "pos": "0",
+        "points": "3",
+        "total_points": "25"
+    },
+    {
+        "id": "554",
+        "name": "Moussa Sissoko",
+        "team": "4",
+        "pos": "2",
+        "points": "1",
+        "total_points": "20"
+    },
+    {
+        "id": "555",
+        "name": "Oliver Skipp",
+        "team": "14",
+        "pos": "2",
+        "points": "4",
+        "total_points": "18"
+    },
+    {
+        "id": "556",
+        "name": "Cieran Slicker",
+        "team": "7",
+        "pos": "0",
+        "points": "1",
+        "total_points": "24"
+    },
+    {
+        "id": "557",
+        "name": "Thierry Small",
+        "team": "1",
+        "pos": "1",
+        "points": "7",
+        "total_points": "26"
+    },
+    {
+        "id": "558",
+        "name": "Will Smallbone",
+        "team": "1",
+        "pos": "2",
+        "points": "3",
+        "total_points": "12"
+    },
+    {
+        "id": "559",
+        "name": "Emile Smith Rowe",
+        "team": "15",
+        "pos": "2",
+        "points": "9",
+        "total_points": "25"
+    },
+    {
+        "id": "560",
+        "name": "Heung-min Son",
+        "team": "14",
+        "pos": "3",
+        "points": "6",
+        "total_points": "23"
+    },
+    {
+        "id": "561",
+        "name": "Jude Soonsup Bell",
+        "team": "16",
+        "pos": "3",
+        "points": "2",
+        "total_points": "14"
+    },
+    {
+        "id": "562",
+        "name": "Tomas Soucek",
+        "team": "10",
+        "pos": "2",
+        "points": "4",
+        "total_points": "18"
+    },
+    {
+        "id": "563",
+        "name": "Boubakary Soumare",
+        "team": "8",
+        "pos": "2",
+        "points": "9",
+        "total_points": "16"
+    },
+    {
+        "id": "564",
+        "name": "Caglar Soyuncu",
+        "team": "8",
+        "pos": "1",
+        "points": "4",
+        "total_points": "24"
+    },
+    {
+        "id": "565",
+        "name": "Jacob Sorensen",
+        "team": "0",
+        "pos": "1",
+        "points": "2",
+        "total_points": "26"
+    },
+    {
+        "id": "566",
+        "name": "Tony Springett",
+        "team": "0",
+        "pos": "2",
+        "points": "9",
+        "total_points": "15"
+    },
+    {
+        "id": "567",
+        "name": "Jason Steele",
+        "team": "13",
+        "pos": "0",
+        "points": "7",
+        "total_points": "24"
+    },
+    {
+        "id": "568",
+        "name": "Zack Steffen",
+        "team": "7",
+        "pos": "0",
+        "points": "3",
+        "total_points": "16"
+    },
+    {
+        "id": "569",
+        "name": "Dale Stephens",
+        "team": "19",
+        "pos": "2",
+        "points": "9",
+        "total_points": "13"
+    },
+    {
+        "id": "570",
+        "name": "Jack Stephens",
+        "team": "1",
+        "pos": "1",
+        "points": "5",
+        "total_points": "17"
+    },
+    {
+        "id": "571",
+        "name": "Raheem Sterling",
+        "team": "7",
+        "pos": "3",
+        "points": "9",
+        "total_points": "11"
+    },
+    {
+        "id": "572",
+        "name": "Fin Stevens",
+        "team": "6",
+        "pos": "1",
+        "points": "9",
+        "total_points": "19"
+    },
+    {
+        "id": "573",
+        "name": "John Stones",
+        "team": "7",
+        "pos": "1",
+        "points": "8",
+        "total_points": "15"
+    },
+    {
+        "id": "574",
+        "name": "Jimmy Storer",
+        "team": "5",
+        "pos": "0",
+        "points": "7",
+        "total_points": "27"
+    },
+    {
+        "id": "575",
+        "name": "Pascal Struijk",
+        "team": "18",
+        "pos": "1",
+        "points": "5",
+        "total_points": "15"
+    },
+    {
+        "id": "576",
+        "name": "Thanawat Suengchitthawon",
+        "team": "8",
+        "pos": "2",
+        "points": "6",
+        "total_points": "27"
+    },
+    {
+        "id": "577",
+        "name": "Crysencio Summerville",
+        "team": "18",
+        "pos": "3",
+        "points": "3",
+        "total_points": "24"
+    },
+    {
+        "id": "578",
+        "name": "Zak Swanson",
+        "team": "15",
+        "pos": "1",
+        "points": "8",
+        "total_points": "27"
+    },
+    {
+        "id": "579",
+        "name": "Sil Swinkels",
+        "team": "17",
+        "pos": "1",
+        "points": "5",
+        "total_points": "11"
+    },
+    {
+        "id": "580",
+        "name": "Japhet Tanganga",
+        "team": "14",
+        "pos": "1",
+        "points": "8",
+        "total_points": "25"
+    },
+    {
+        "id": "581",
+        "name": "Matt Targett",
+        "team": "12",
+        "pos": "1",
+        "points": "6",
+        "total_points": "18"
+    },
+    {
+        "id": "582",
+        "name": "James Tarkowski",
+        "team": "19",
+        "pos": "1",
+        "points": "8",
+        "total_points": "21"
+    },
+    {
+        "id": "583",
+        "name": "Charlie Taylor",
+        "team": "19",
+        "pos": "1",
+        "points": "6",
+        "total_points": "12"
+    },
+    {
+        "id": "584",
+        "name": "Nathan Tella",
+        "team": "1",
+        "pos": "3",
+        "points": "5",
+        "total_points": "19"
+    },
+    {
+        "id": "585",
+        "name": "Thiago",
+        "team": "3",
+        "pos": "2",
+        "points": "8",
+        "total_points": "24"
+    },
+    {
+        "id": "586",
+        "name": "Thiago Silva",
+        "team": "16",
+        "pos": "1",
+        "points": "4",
+        "total_points": "19"
+    },
+    {
+        "id": "587",
+        "name": "Bobby Thomas",
+        "team": "19",
+        "pos": "1",
+        "points": "1",
+        "total_points": "17"
+    },
+    {
+        "id": "588",
+        "name": "Luke Thomas",
+        "team": "8",
+        "pos": "1",
+        "points": "6",
+        "total_points": "25"
+    },
+    {
+        "id": "589",
+        "name": "Youri Tielemans",
+        "team": "8",
+        "pos": "2",
+        "points": "1",
+        "total_points": "13"
+    },
+    {
+        "id": "590",
+        "name": "Kieran Tierney",
+        "team": "15",
+        "pos": "1",
+        "points": "1",
+        "total_points": "26"
+    },
+    {
+        "id": "591",
+        "name": "Takehiro Tomiyasu",
+        "team": "15",
+        "pos": "1",
+        "points": "5",
+        "total_points": "28"
+    },
+    {
+        "id": "592",
+        "name": "James Tomkins",
+        "team": "2",
+        "pos": "1",
+        "points": "2",
+        "total_points": "24"
+    },
+    {
+        "id": "593",
+        "name": "Jonathan Tomkinson",
+        "team": "0",
+        "pos": "1",
+        "points": "2",
+        "total_points": "10"
+    },
+    {
+        "id": "594",
+        "name": "Ivan Toney",
+        "team": "6",
+        "pos": "3",
+        "points": "9",
+        "total_points": "19"
+    },
+    {
+        "id": "595",
+        "name": "Cenk Tosun",
+        "team": "11",
+        "pos": "3",
+        "points": "7",
+        "total_points": "17"
+    },
+    {
+        "id": "596",
+        "name": "Toti Gomes",
+        "team": "5",
+        "pos": "1",
+        "points": "1",
+        "total_points": "19"
+    },
+    {
+        "id": "597",
+        "name": "Andros Townsend",
+        "team": "11",
+        "pos": "3",
+        "points": "1",
+        "total_points": "10"
+    },
+    {
+        "id": "598",
+        "name": "Bertrand Traore",
+        "team": "17",
+        "pos": "3",
+        "points": "8",
+        "total_points": "12"
+    },
+    {
+        "id": "599",
+        "name": "Trincao",
+        "team": "5",
+        "pos": "3",
+        "points": "4",
+        "total_points": "18"
+    },
+    {
+        "id": "600",
+        "name": "Kieran Trippier",
+        "team": "12",
+        "pos": "1",
+        "points": "5",
+        "total_points": "13"
+    },
+    {
+        "id": "601",
+        "name": "William Troost Ekong",
+        "team": "4",
+        "pos": "1",
+        "points": "9",
+        "total_points": "11"
+    },
+    {
+        "id": "602",
+        "name": "Leandro Trossard",
+        "team": "13",
+        "pos": "3",
+        "points": "2",
+        "total_points": "15"
+    },
+    {
+        "id": "603",
+        "name": "Kostas Tsimikas",
+        "team": "3",
+        "pos": "1",
+        "points": "7",
+        "total_points": "26"
+    },
+    {
+        "id": "604",
+        "name": "Antef Tsoungui",
+        "team": "13",
+        "pos": "2",
+        "points": "1",
+        "total_points": "20"
+    },
+    {
+        "id": "605",
+        "name": "Ed Turns",
+        "team": "13",
+        "pos": "1",
+        "points": "7",
+        "total_points": "13"
+    },
+    {
+        "id": "606",
+        "name": "Harry Tyrer",
+        "team": "11",
+        "pos": "0",
+        "points": "8",
+        "total_points": "17"
+    },
+    {
+        "id": "607",
+        "name": "Christos Tzolis",
+        "team": "0",
+        "pos": "3",
+        "points": "6",
+        "total_points": "17"
+    },
+    {
+        "id": "608",
+        "name": "Harvey Vale",
+        "team": "16",
+        "pos": "2",
+        "points": "8",
+        "total_points": "10"
+    },
+    {
+        "id": "609",
+        "name": "Yan Valery",
+        "team": "1",
+        "pos": "1",
+        "points": "6",
+        "total_points": "28"
+    },
+    {
+        "id": "610",
+        "name": "Donny van de Beek",
+        "team": "11",
+        "pos": "2",
+        "points": "8",
+        "total_points": "20"
+    },
+    {
+        "id": "611",
+        "name": "Virgil van Dijk",
+        "team": "3",
+        "pos": "1",
+        "points": "1",
+        "total_points": "26"
+    },
+    {
+        "id": "612",
+        "name": "Raphael Varane",
+        "team": "9",
+        "pos": "1",
+        "points": "6",
+        "total_points": "14"
+    },
+    {
+        "id": "613",
+        "name": "Jamie Vardy",
+        "team": "8",
+        "pos": "3",
+        "points": "2",
+        "total_points": "26"
+    },
+    {
+        "id": "614",
+        "name": "Joel Veltman",
+        "team": "13",
+        "pos": "1",
+        "points": "5",
+        "total_points": "26"
+    },
+    {
+        "id": "615",
+        "name": "Jannik Vestergaard",
+        "team": "8",
+        "pos": "1",
+        "points": "2",
+        "total_points": "26"
+    },
+    {
+        "id": "616",
+        "name": "Nikola Vlasic",
+        "team": "10",
+        "pos": "2",
+        "points": "9",
+        "total_points": "23"
+    },
+    {
+        "id": "617",
+        "name": "Matej Vydra",
+        "team": "19",
+        "pos": "3",
+        "points": "4",
+        "total_points": "17"
+    },
+    {
+        "id": "618",
+        "name": "Theo Walcott",
+        "team": "1",
+        "pos": "3",
+        "points": "4",
+        "total_points": "12"
+    },
+    {
+        "id": "619",
+        "name": "Kyle Walker",
+        "team": "7",
+        "pos": "1",
+        "points": "5",
+        "total_points": "28"
+    },
+    {
+        "id": "620",
+        "name": "Kyle Walker Peters",
+        "team": "1",
+        "pos": "1",
+        "points": "3",
+        "total_points": "10"
+    },
+    {
+        "id": "621",
+        "name": "Sam Waller",
+        "team": "19",
+        "pos": "0",
+        "points": "1",
+        "total_points": "10"
+    },
+    {
+        "id": "622",
+        "name": "Aaron Wan Bissaka",
+        "team": "9",
+        "pos": "1",
+        "points": "8",
+        "total_points": "21"
+    },
+    {
+        "id": "623",
+        "name": "Danny Ward",
+        "team": "8",
+        "pos": "0",
+        "points": "6",
+        "total_points": "17"
+    },
+    {
+        "id": "624",
+        "name": "Joel Ward",
+        "team": "2",
+        "pos": "1",
+        "points": "5",
+        "total_points": "17"
+    },
+    {
+        "id": "625",
+        "name": "James Ward Prowse",
+        "team": "1",
+        "pos": "2",
+        "points": "3",
+        "total_points": "14"
+    },
+    {
+        "id": "626",
+        "name": "Ollie Watkins",
+        "team": "17",
+        "pos": "3",
+        "points": "8",
+        "total_points": "23"
+    },
+    {
+        "id": "627",
+        "name": "Adam Webster",
+        "team": "13",
+        "pos": "1",
+        "points": "4",
+        "total_points": "26"
+    },
+    {
+        "id": "628",
+        "name": "Charlie Webster",
+        "team": "16",
+        "pos": "2",
+        "points": "1",
+        "total_points": "19"
+    },
+    {
+        "id": "629",
+        "name": "Wout Weghorst",
+        "team": "19",
+        "pos": "3",
+        "points": "5",
+        "total_points": "28"
+    },
+    {
+        "id": "630",
+        "name": "Danny Welbeck",
+        "team": "13",
+        "pos": "3",
+        "points": "2",
+        "total_points": "27"
+    },
+    {
+        "id": "631",
+        "name": "Reece Welch",
+        "team": "11",
+        "pos": "1",
+        "points": "8",
+        "total_points": "20"
+    },
+    {
+        "id": "632",
+        "name": "Charlie Wellens",
+        "team": "9",
+        "pos": "1",
+        "points": "9",
+        "total_points": "26"
+    },
+    {
+        "id": "633",
+        "name": "Jack Wells Morrison",
+        "team": "2",
+        "pos": "2",
+        "points": "6",
+        "total_points": "10"
+    },
+    {
+        "id": "634",
+        "name": "Timo Werner",
+        "team": "16",
+        "pos": "3",
+        "points": "1",
+        "total_points": "28"
+    },
+    {
+        "id": "635",
+        "name": "Ashley Westwood",
+        "team": "19",
+        "pos": "2",
+        "points": "1",
+        "total_points": "22"
+    },
+    {
+        "id": "636",
+        "name": "Charlie Whitaker",
+        "team": "11",
+        "pos": "2",
+        "points": "3",
+        "total_points": "25"
+    },
+    {
+        "id": "637",
+        "name": "Ben White",
+        "team": "15",
+        "pos": "1",
+        "points": "7",
+        "total_points": "28"
+    },
+    {
+        "id": "638",
+        "name": "Harvey White",
+        "team": "14",
+        "pos": "2",
+        "points": "2",
+        "total_points": "28"
+    },
+    {
+        "id": "639",
+        "name": "Brandon Williams",
+        "team": "0",
+        "pos": "1",
+        "points": "1",
+        "total_points": "18"
+    },
+    {
+        "id": "640",
+        "name": "Dylan Williams",
+        "team": "16",
+        "pos": "1",
+        "points": "6",
+        "total_points": "26"
+    },
+    {
+        "id": "641",
+        "name": "Rhys Williams",
+        "team": "3",
+        "pos": "1",
+        "points": "1",
+        "total_points": "12"
+    },
+    {
+        "id": "642",
+        "name": "Joe Willock",
+        "team": "12",
+        "pos": "2",
+        "points": "3",
+        "total_points": "23"
+    },
+    {
+        "id": "643",
+        "name": "Callum Wilson",
+        "team": "12",
+        "pos": "3",
+        "points": "5",
+        "total_points": "13"
+    },
+    {
+        "id": "644",
+        "name": "Josh Wilson-Esbrand",
+        "team": "7",
+        "pos": "1",
+        "points": "3",
+        "total_points": "15"
+    },
+    {
+        "id": "645",
+        "name": "Harry Winks",
+        "team": "14",
+        "pos": "2",
+        "points": "3",
+        "total_points": "20"
+    },
+    {
+        "id": "646",
+        "name": "Yoane Wissa",
+        "team": "6",
+        "pos": "3",
+        "points": "4",
+        "total_points": "24"
+    },
+    {
+        "id": "647",
+        "name": "Max Woltman",
+        "team": "3",
+        "pos": "2",
+        "points": "8",
+        "total_points": "20"
+    },
+    {
+        "id": "648",
+        "name": "Chris Wood",
+        "team": "12",
+        "pos": "3",
+        "points": "4",
+        "total_points": "26"
+    },
+    {
+        "id": "649",
+        "name": "Granit Xhaka",
+        "team": "15",
+        "pos": "2",
+        "points": "8",
+        "total_points": "13"
+    },
+    {
+        "id": "650",
+        "name": "Andrey Yarmolenko",
+        "team": "10",
+        "pos": "3",
+        "points": "6",
+        "total_points": "11"
+    },
+    {
+        "id": "651",
+        "name": "Ashley Young",
+        "team": "17",
+        "pos": "1",
+        "points": "9",
+        "total_points": "26"
+    },
+    {
+        "id": "652",
+        "name": "Nathan Young Coombes",
+        "team": "6",
+        "pos": "3",
+        "points": "8",
+        "total_points": "14"
+    },
+    {
+        "id": "653",
+        "name": "Wilfried Zaha",
+        "team": "2",
+        "pos": "2",
+        "points": "9",
+        "total_points": "25"
+    },
+    {
+        "id": "654",
+        "name": "Zanka",
+        "team": "6",
+        "pos": "1",
+        "points": "2",
+        "total_points": "27"
+    },
+    {
+        "id": "655",
+        "name": "Christoph Zimmermann",
+        "team": "0",
+        "pos": "1",
+        "points": "6",
+        "total_points": "21"
+    },
+    {
+        "id": "656",
+        "name": "Oleksandr Zinchenko",
+        "team": "7",
+        "pos": "1",
+        "points": "4",
+        "total_points": "17"
+    },
+    {
+        "id": "657",
+        "name": "Hakim Ziyech",
+        "team": "16",
+        "pos": "3",
+        "points": "2",
+        "total_points": "25"
+    },
+    {
+        "id": "658",
+        "name": "Kurt Zouma",
+        "team": "10",
+        "pos": "1",
+        "points": "3",
+        "total_points": "10"
+    }
+]
